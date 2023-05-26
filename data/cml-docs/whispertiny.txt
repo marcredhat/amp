@@ -1,0 +1,5280 @@
+{
+  "text": " And then you've, have you seen our examples, GitHub repository? Yeah, exactly. That's where you were. Okay, I just wanted to be sure. I hate making assumptions because every time they get mixed. Okay, so GitHub's interface, I swear. Okay. So first off, you probably already saw this experiment budget. Ultimately means number of trials. So this, in this case, we chose 80. I believe that's because the number of parameters we're doing is four. One, two, three, four. Yes. Okay. So that's the 20. Remember I said between 10 and 20, we want the 20 in this example. CPU and memory are totally self-explanatory. You already understand that. They'll come into play again in a moment. But for now, that's pretty self-explanatory. Same with replicas. Although in this case, since it's a last-to-search, I think this is in reference to a last-to-search replicas, not Kubernetes replicas. Okay. And then finally, heap percent. So we were talking before about heap sizes of fun example. We'll see how that comes into play as well. I'm going to scroll down here. By the way, is this font large enough for you to read or share that? Yeah, it's very simple. Okay. So let me scroll down here a little bit. Our common, or one of our common examples, is cost and duration. And that's because for most people in a system under test, they're trying to get their duration as low as possible, while keeping their cost as low as possible. Think of simple, like batch jobs or that post-cribe PG bench in your example that you've already run. It's the same sort of thing. How fast can it run? But we're always looking for here. Our things that maybe can't both go down at the same time. That's what I'm up by opposing goals. A lot of times, you would imagine, and again, this is maybe human bias, which is what machine learning tries to fight, is if we have lower costs, we won't have lower duration. Like there's no way you can have both. And so you're kind of, I don't want to say you're making a compromise, but you're finding where that intersection point is. And that's what we're doing here. You'll notice obviously this is also set minimize true. I think that's the default and optimized profile, I remember correctly, but what's important here is it means you can change it. So maybe you have something called throughput that you want to measure. You can say minimize false, and there's you only will know it wants to maximize it instead. So it's one of those kind of counterintuitive settings, or minimize false. You would think we have a maximize true, but that's how it is. The other thing I'll point out with the metrics is these are, when it says query, this is querying the premier thesis, or when we kind of bring our own. Those are for our premier thesis or kind of our system. Excuse me, that's, so that's what those are in reference to. We can do premier thesis queries from the premier thesis you provide as well. That's no problem at all. It's a different syntax. It's not in this one as an example, but why I like this example? You see the comments on line 38 where we talk about $20 per month per CPU. That's where this works out. So when we do resource request, which is a call at a custom query of sorts, we have a few built-ins. These are all based on spreek functions if you're familiar with that at all. So basically what this does is it looks at the pods that are spun up. When we get, we'll get to this later in the, in the Yamal here, but we look at the pods that are spun up how long they ran for the duration of the test. And then multiply that CPU, utiles or CPU resource usage by .022, which works out to $22 per month per CPU in this example. You can set these to whatever you like. I tend to not change the values unless someone says, I need precision. If they say, I need to know exactly what it will cost in my environment, then I'll come back to them and say, okay, what are your costs? Let's do the math and we'll do it. The reason why I don't bother is because it's always relative to itself. So surely if it said this was $5 and another one was $7,000, $7,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $ $1, $1,000, $1,000, $1,000, $1,000, $1, $1,000, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $",
+  "segments": [
+    {
+      "start": 0.22,
+      "end": 3.86,
+      "text": " And then you've, have you seen our examples,",
+      "confidence": 0.82,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.22,
+          "end": 0.38,
+          "confidence": 0.56
+        },
+        {
+          "text": "then",
+          "start": 0.38,
+          "end": 0.78,
+          "confidence": 0.99
+        },
+        {
+          "text": "you've,",
+          "start": 0.78,
+          "end": 2.44,
+          "confidence": 0.67
+        },
+        {
+          "text": "have",
+          "start": 2.44,
+          "end": 2.72,
+          "confidence": 0.81
+        },
+        {
+          "text": "you",
+          "start": 2.72,
+          "end": 2.9,
+          "confidence": 0.96
+        },
+        {
+          "text": "seen",
+          "start": 2.9,
+          "end": 3.14,
+          "confidence": 0.99
+        },
+        {
+          "text": "our",
+          "start": 3.14,
+          "end": 3.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "examples,",
+          "start": 3.3,
+          "end": 3.86,
+          "confidence": 0.94
+        }
+      ]
+    },
+    {
+      "start": 5.0,
+      "end": 5.84,
+      "text": " GitHub repository?",
+      "confidence": 0.83,
+      "words": [
+        {
+          "text": "GitHub",
+          "start": 5.0,
+          "end": 5.28,
+          "confidence": 0.77
+        },
+        {
+          "text": "repository?",
+          "start": 5.28,
+          "end": 5.84,
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "start": 5.92,
+      "end": 6.76,
+      "text": " Yeah, exactly.",
+      "confidence": 0.87,
+      "words": [
+        {
+          "text": "Yeah,",
+          "start": 5.92,
+          "end": 6.16,
+          "confidence": 0.93
+        },
+        {
+          "text": "exactly.",
+          "start": 6.64,
+          "end": 6.76,
+          "confidence": 0.81
+        }
+      ]
+    },
+    {
+      "start": 6.76,
+      "end": 8.2,
+      "text": " That's where you were.",
+      "confidence": 0.8,
+      "words": [
+        {
+          "text": "That's",
+          "start": 6.76,
+          "end": 7.3,
+          "confidence": 0.86
+        },
+        {
+          "text": "where",
+          "start": 7.3,
+          "end": 7.98,
+          "confidence": 0.55
+        },
+        {
+          "text": "you",
+          "start": 7.98,
+          "end": 8.06,
+          "confidence": 0.98
+        },
+        {
+          "text": "were.",
+          "start": 8.06,
+          "end": 8.2,
+          "confidence": 0.82
+        }
+      ]
+    },
+    {
+      "start": 8.2,
+      "end": 9.4,
+      "text": " Okay, I just wanted to be sure.",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "Okay,",
+          "start": 8.2,
+          "end": 8.42,
+          "confidence": 0.58
+        },
+        {
+          "text": "I",
+          "start": 8.6,
+          "end": 8.62,
+          "confidence": 0.98
+        },
+        {
+          "text": "just",
+          "start": 8.62,
+          "end": 8.78,
+          "confidence": 0.99
+        },
+        {
+          "text": "wanted",
+          "start": 8.78,
+          "end": 8.92,
+          "confidence": 0.87
+        },
+        {
+          "text": "to",
+          "start": 8.92,
+          "end": 9.02,
+          "confidence": 0.99
+        },
+        {
+          "text": "be",
+          "start": 9.02,
+          "end": 9.04,
+          "confidence": 0.99
+        },
+        {
+          "text": "sure.",
+          "start": 9.04,
+          "end": 9.4,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 10.28,
+      "end": 13.34,
+      "text": " I hate making assumptions because every time they get mixed.",
+      "confidence": 0.85,
+      "words": [
+        {
+          "text": "I",
+          "start": 10.28,
+          "end": 10.42,
+          "confidence": 0.97
+        },
+        {
+          "text": "hate",
+          "start": 10.42,
+          "end": 10.58,
+          "confidence": 1.0
+        },
+        {
+          "text": "making",
+          "start": 10.58,
+          "end": 10.8,
+          "confidence": 1.0
+        },
+        {
+          "text": "assumptions",
+          "start": 10.8,
+          "end": 11.24,
+          "confidence": 1.0
+        },
+        {
+          "text": "because",
+          "start": 11.24,
+          "end": 11.6,
+          "confidence": 0.79
+        },
+        {
+          "text": "every",
+          "start": 11.6,
+          "end": 12.0,
+          "confidence": 0.92
+        },
+        {
+          "text": "time",
+          "start": 12.0,
+          "end": 12.44,
+          "confidence": 0.97
+        },
+        {
+          "text": "they",
+          "start": 12.44,
+          "end": 12.88,
+          "confidence": 0.44
+        },
+        {
+          "text": "get",
+          "start": 12.88,
+          "end": 13.08,
+          "confidence": 0.96
+        },
+        {
+          "text": "mixed.",
+          "start": 13.08,
+          "end": 13.34,
+          "confidence": 0.71
+        }
+      ]
+    },
+    {
+      "start": 13.34,
+      "end": 16.28,
+      "text": " Okay, so GitHub's interface, I swear.",
+      "confidence": 0.83,
+      "words": [
+        {
+          "text": "Okay,",
+          "start": 13.34,
+          "end": 13.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "so",
+          "start": 14.04,
+          "end": 14.64,
+          "confidence": 0.98
+        },
+        {
+          "text": "GitHub's",
+          "start": 14.64,
+          "end": 15.56,
+          "confidence": 0.69
+        },
+        {
+          "text": "interface,",
+          "start": 15.56,
+          "end": 15.92,
+          "confidence": 0.92
+        },
+        {
+          "text": "I",
+          "start": 16.06,
+          "end": 16.12,
+          "confidence": 0.65
+        },
+        {
+          "text": "swear.",
+          "start": 16.12,
+          "end": 16.28,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 16.28,
+      "end": 16.58,
+      "text": " Okay.",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "Okay.",
+          "start": 16.28,
+          "end": 16.58,
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "start": 18.04,
+      "end": 20.54,
+      "text": " So first off, you probably already saw this experiment budget.",
+      "confidence": 0.91,
+      "words": [
+        {
+          "text": "So",
+          "start": 18.04,
+          "end": 18.22,
+          "confidence": 0.96
+        },
+        {
+          "text": "first",
+          "start": 18.22,
+          "end": 18.42,
+          "confidence": 0.83
+        },
+        {
+          "text": "off,",
+          "start": 18.42,
+          "end": 18.58,
+          "confidence": 0.78
+        },
+        {
+          "text": "you",
+          "start": 18.7,
+          "end": 18.72,
+          "confidence": 0.95
+        },
+        {
+          "text": "probably",
+          "start": 18.72,
+          "end": 19.02,
+          "confidence": 0.98
+        },
+        {
+          "text": "already",
+          "start": 19.02,
+          "end": 19.32,
+          "confidence": 1.0
+        },
+        {
+          "text": "saw",
+          "start": 19.32,
+          "end": 19.56,
+          "confidence": 1.0
+        },
+        {
+          "text": "this",
+          "start": 19.56,
+          "end": 19.76,
+          "confidence": 0.93
+        },
+        {
+          "text": "experiment",
+          "start": 19.76,
+          "end": 20.14,
+          "confidence": 0.91
+        },
+        {
+          "text": "budget.",
+          "start": 20.14,
+          "end": 20.54,
+          "confidence": 0.77
+        }
+      ]
+    },
+    {
+      "start": 21.12,
+      "end": 22.42,
+      "text": " Ultimately means number of trials.",
+      "confidence": 0.95,
+      "words": [
+        {
+          "text": "Ultimately",
+          "start": 21.12,
+          "end": 21.48,
+          "confidence": 0.97
+        },
+        {
+          "text": "means",
+          "start": 21.48,
+          "end": 21.72,
+          "confidence": 0.88
+        },
+        {
+          "text": "number",
+          "start": 21.72,
+          "end": 21.96,
+          "confidence": 0.94
+        },
+        {
+          "text": "of",
+          "start": 21.96,
+          "end": 22.12,
+          "confidence": 1.0
+        },
+        {
+          "text": "trials.",
+          "start": 22.12,
+          "end": 22.42,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 22.84,
+      "end": 24.76,
+      "text": " So this, in this case, we chose 80.",
+      "confidence": 0.92,
+      "words": [
+        {
+          "text": "So",
+          "start": 22.84,
+          "end": 23.02,
+          "confidence": 0.9
+        },
+        {
+          "text": "this,",
+          "start": 23.02,
+          "end": 23.38,
+          "confidence": 0.71
+        },
+        {
+          "text": "in",
+          "start": 23.4,
+          "end": 23.48,
+          "confidence": 1.0
+        },
+        {
+          "text": "this",
+          "start": 23.48,
+          "end": 23.7,
+          "confidence": 1.0
+        },
+        {
+          "text": "case,",
+          "start": 23.7,
+          "end": 23.9,
+          "confidence": 1.0
+        },
+        {
+          "text": "we",
+          "start": 23.96,
+          "end": 24.08,
+          "confidence": 0.9
+        },
+        {
+          "text": "chose",
+          "start": 24.08,
+          "end": 24.3,
+          "confidence": 0.99
+        },
+        {
+          "text": "80.",
+          "start": 24.3,
+          "end": 24.76,
+          "confidence": 0.87
+        }
+      ]
+    },
+    {
+      "start": 25.16,
+      "end": 28.4,
+      "text": " I believe that's because the number of parameters we're doing is four.",
+      "confidence": 0.84,
+      "words": [
+        {
+          "text": "I",
+          "start": 25.16,
+          "end": 25.36,
+          "confidence": 0.7
+        },
+        {
+          "text": "believe",
+          "start": 25.36,
+          "end": 26.08,
+          "confidence": 0.98
+        },
+        {
+          "text": "that's",
+          "start": 26.08,
+          "end": 26.46,
+          "confidence": 0.99
+        },
+        {
+          "text": "because",
+          "start": 26.46,
+          "end": 26.82,
+          "confidence": 1.0
+        },
+        {
+          "text": "the",
+          "start": 26.82,
+          "end": 27.04,
+          "confidence": 0.97
+        },
+        {
+          "text": "number",
+          "start": 27.04,
+          "end": 27.22,
+          "confidence": 0.99
+        },
+        {
+          "text": "of",
+          "start": 27.22,
+          "end": 27.36,
+          "confidence": 0.56
+        },
+        {
+          "text": "parameters",
+          "start": 27.36,
+          "end": 27.66,
+          "confidence": 0.99
+        },
+        {
+          "text": "we're",
+          "start": 27.66,
+          "end": 27.86,
+          "confidence": 0.85
+        },
+        {
+          "text": "doing",
+          "start": 27.86,
+          "end": 28.06,
+          "confidence": 0.95
+        },
+        {
+          "text": "is",
+          "start": 28.06,
+          "end": 28.26,
+          "confidence": 0.69
+        },
+        {
+          "text": "four.",
+          "start": 28.26,
+          "end": 28.4,
+          "confidence": 0.49
+        }
+      ]
+    },
+    {
+      "start": 28.44,
+      "end": 30.08,
+      "text": " One, two, three, four.",
+      "confidence": 0.93,
+      "words": [
+        {
+          "text": "One,",
+          "start": 28.44,
+          "end": 28.84,
+          "confidence": 0.75
+        },
+        {
+          "text": "two,",
+          "start": 29.08,
+          "end": 29.24,
+          "confidence": 0.99
+        },
+        {
+          "text": "three,",
+          "start": 29.4,
+          "end": 29.68,
+          "confidence": 1.0
+        },
+        {
+          "text": "four.",
+          "start": 29.84,
+          "end": 30.08,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 30.08,
+      "end": 30.7,
+      "text": " Yes. Okay.",
+      "confidence": 0.78,
+      "words": [
+        {
+          "text": "Yes.",
+          "start": 30.08,
+          "end": 30.36,
+          "confidence": 0.95
+        },
+        {
+          "text": "Okay.",
+          "start": 30.54,
+          "end": 30.7,
+          "confidence": 0.64
+        }
+      ]
+    },
+    {
+      "start": 31.04,
+      "end": 32.1,
+      "text": " So that's the 20.",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "So",
+          "start": 31.04,
+          "end": 31.26,
+          "confidence": 0.99
+        },
+        {
+          "text": "that's",
+          "start": 31.26,
+          "end": 31.68,
+          "confidence": 0.98
+        },
+        {
+          "text": "the",
+          "start": 31.68,
+          "end": 31.9,
+          "confidence": 0.98
+        },
+        {
+          "text": "20.",
+          "start": 31.9,
+          "end": 32.1,
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "start": 32.1,
+      "end": 34.62,
+      "text": " Remember I said between 10 and 20, we want the 20 in this example.",
+      "confidence": 0.71,
+      "words": [
+        {
+          "text": "Remember",
+          "start": 32.1,
+          "end": 32.32,
+          "confidence": 0.92
+        },
+        {
+          "text": "I",
+          "start": 32.32,
+          "end": 32.46,
+          "confidence": 0.66
+        },
+        {
+          "text": "said",
+          "start": 32.46,
+          "end": 32.56,
+          "confidence": 0.98
+        },
+        {
+          "text": "between",
+          "start": 32.56,
+          "end": 32.78,
+          "confidence": 0.69
+        },
+        {
+          "text": "10",
+          "start": 32.78,
+          "end": 33.02,
+          "confidence": 0.87
+        },
+        {
+          "text": "and",
+          "start": 33.02,
+          "end": 33.14,
+          "confidence": 0.87
+        },
+        {
+          "text": "20,",
+          "start": 33.14,
+          "end": 33.34,
+          "confidence": 0.91
+        },
+        {
+          "text": "we",
+          "start": 33.42,
+          "end": 33.52,
+          "confidence": 0.73
+        },
+        {
+          "text": "want",
+          "start": 33.52,
+          "end": 33.68,
+          "confidence": 0.47
+        },
+        {
+          "text": "the",
+          "start": 33.68,
+          "end": 33.88,
+          "confidence": 0.25
+        },
+        {
+          "text": "20",
+          "start": 33.88,
+          "end": 34.04,
+          "confidence": 0.99
+        },
+        {
+          "text": "in",
+          "start": 34.04,
+          "end": 34.18,
+          "confidence": 0.39
+        },
+        {
+          "text": "this",
+          "start": 34.18,
+          "end": 34.28,
+          "confidence": 0.96
+        },
+        {
+          "text": "example.",
+          "start": 34.28,
+          "end": 34.62,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 35.38,
+      "end": 37.4,
+      "text": " CPU and memory are totally self-explanatory.",
+      "confidence": 0.89,
+      "words": [
+        {
+          "text": "CPU",
+          "start": 35.38,
+          "end": 35.74,
+          "confidence": 0.67
+        },
+        {
+          "text": "and",
+          "start": 35.74,
+          "end": 35.92,
+          "confidence": 0.98
+        },
+        {
+          "text": "memory",
+          "start": 35.92,
+          "end": 36.24,
+          "confidence": 1.0
+        },
+        {
+          "text": "are",
+          "start": 36.24,
+          "end": 36.46,
+          "confidence": 0.98
+        },
+        {
+          "text": "totally",
+          "start": 36.46,
+          "end": 36.8,
+          "confidence": 0.97
+        },
+        {
+          "text": "self-explanatory.",
+          "start": 36.8,
+          "end": 37.4,
+          "confidence": 0.87
+        }
+      ]
+    },
+    {
+      "start": 37.54,
+      "end": 38.46,
+      "text": " You already understand that.",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "You",
+          "start": 37.54,
+          "end": 37.7,
+          "confidence": 0.99
+        },
+        {
+          "text": "already",
+          "start": 37.7,
+          "end": 37.92,
+          "confidence": 0.99
+        },
+        {
+          "text": "understand",
+          "start": 37.92,
+          "end": 38.34,
+          "confidence": 0.99
+        },
+        {
+          "text": "that.",
+          "start": 38.34,
+          "end": 38.46,
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "start": 38.46,
+      "end": 39.94,
+      "text": " They'll come into play again in a moment.",
+      "confidence": 0.97,
+      "words": [
+        {
+          "text": "They'll",
+          "start": 38.46,
+          "end": 38.78,
+          "confidence": 0.95
+        },
+        {
+          "text": "come",
+          "start": 38.78,
+          "end": 38.9,
+          "confidence": 0.99
+        },
+        {
+          "text": "into",
+          "start": 38.9,
+          "end": 39.08,
+          "confidence": 0.94
+        },
+        {
+          "text": "play",
+          "start": 39.08,
+          "end": 39.3,
+          "confidence": 0.99
+        },
+        {
+          "text": "again",
+          "start": 39.3,
+          "end": 39.46,
+          "confidence": 0.99
+        },
+        {
+          "text": "in",
+          "start": 39.46,
+          "end": 39.58,
+          "confidence": 0.93
+        },
+        {
+          "text": "a",
+          "start": 39.58,
+          "end": 39.7,
+          "confidence": 0.97
+        },
+        {
+          "text": "moment.",
+          "start": 39.7,
+          "end": 39.94,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 40.96,
+      "end": 42.42,
+      "text": " But for now, that's pretty self-explanatory.",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "But",
+          "start": 40.96,
+          "end": 41.0,
+          "confidence": 0.99
+        },
+        {
+          "text": "for",
+          "start": 41.0,
+          "end": 41.12,
+          "confidence": 0.84
+        },
+        {
+          "text": "now,",
+          "start": 41.12,
+          "end": 41.26,
+          "confidence": 1.0
+        },
+        {
+          "text": "that's",
+          "start": 41.5,
+          "end": 41.64,
+          "confidence": 1.0
+        },
+        {
+          "text": "pretty",
+          "start": 41.64,
+          "end": 41.84,
+          "confidence": 0.98
+        },
+        {
+          "text": "self-explanatory.",
+          "start": 41.84,
+          "end": 42.42,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 42.9,
+      "end": 43.48,
+      "text": " Same with replicas.",
+      "confidence": 0.95,
+      "words": [
+        {
+          "text": "Same",
+          "start": 42.9,
+          "end": 43.12,
+          "confidence": 0.98
+        },
+        {
+          "text": "with",
+          "start": 43.12,
+          "end": 43.3,
+          "confidence": 1.0
+        },
+        {
+          "text": "replicas.",
+          "start": 43.3,
+          "end": 43.48,
+          "confidence": 0.91
+        }
+      ]
+    },
+    {
+      "start": 44.0,
+      "end": 45.48,
+      "text": " Although in this case, since it's a last-to-search,",
+      "confidence": 0.85,
+      "words": [
+        {
+          "text": "Although",
+          "start": 44.0,
+          "end": 44.48,
+          "confidence": 0.98
+        },
+        {
+          "text": "in",
+          "start": 44.48,
+          "end": 44.66,
+          "confidence": 0.79
+        },
+        {
+          "text": "this",
+          "start": 44.66,
+          "end": 44.8,
+          "confidence": 1.0
+        },
+        {
+          "text": "case,",
+          "start": 44.8,
+          "end": 44.98,
+          "confidence": 1.0
+        },
+        {
+          "text": "since",
+          "start": 45.06,
+          "end": 45.16,
+          "confidence": 0.98
+        },
+        {
+          "text": "it's",
+          "start": 45.16,
+          "end": 45.38,
+          "confidence": 0.99
+        },
+        {
+          "text": "a",
+          "start": 45.38,
+          "end": 45.42,
+          "confidence": 0.68
+        },
+        {
+          "text": "last-to-search,",
+          "start": 45.42,
+          "end": 45.48,
+          "confidence": 0.78
+        }
+      ]
+    },
+    {
+      "start": 46.12,
+      "end": 48.48,
+      "text": " I think this is in reference to a last-to-search replicas,",
+      "confidence": 0.97,
+      "words": [
+        {
+          "text": "I",
+          "start": 46.12,
+          "end": 46.28,
+          "confidence": 1.0
+        },
+        {
+          "text": "think",
+          "start": 46.28,
+          "end": 46.48,
+          "confidence": 1.0
+        },
+        {
+          "text": "this",
+          "start": 46.48,
+          "end": 46.68,
+          "confidence": 1.0
+        },
+        {
+          "text": "is",
+          "start": 46.68,
+          "end": 46.8,
+          "confidence": 0.99
+        },
+        {
+          "text": "in",
+          "start": 46.8,
+          "end": 46.92,
+          "confidence": 0.95
+        },
+        {
+          "text": "reference",
+          "start": 46.92,
+          "end": 47.24,
+          "confidence": 0.99
+        },
+        {
+          "text": "to",
+          "start": 47.24,
+          "end": 47.48,
+          "confidence": 0.99
+        },
+        {
+          "text": "a",
+          "start": 47.48,
+          "end": 47.62,
+          "confidence": 0.85
+        },
+        {
+          "text": "last-to-search",
+          "start": 47.62,
+          "end": 48.12,
+          "confidence": 0.99
+        },
+        {
+          "text": "replicas,",
+          "start": 48.12,
+          "end": 48.48,
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "start": 49.28,
+      "end": 49.88,
+      "text": " not Kubernetes replicas.",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "not",
+          "start": 49.28,
+          "end": 49.3,
+          "confidence": 0.96
+        },
+        {
+          "text": "Kubernetes",
+          "start": 49.3,
+          "end": 49.66,
+          "confidence": 0.97
+        },
+        {
+          "text": "replicas.",
+          "start": 49.66,
+          "end": 49.88,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 49.88,
+      "end": 50.52,
+      "text": " Okay.",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "Okay.",
+          "start": 49.88,
+          "end": 50.52,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 51.66,
+      "end": 52.84,
+      "text": " And then finally, heap percent.",
+      "confidence": 0.74,
+      "words": [
+        {
+          "text": "And",
+          "start": 51.66,
+          "end": 51.78,
+          "confidence": 0.93
+        },
+        {
+          "text": "then",
+          "start": 51.78,
+          "end": 51.96,
+          "confidence": 1.0
+        },
+        {
+          "text": "finally,",
+          "start": 51.96,
+          "end": 52.22,
+          "confidence": 0.86
+        },
+        {
+          "text": "heap",
+          "start": 52.34,
+          "end": 52.48,
+          "confidence": 0.44
+        },
+        {
+          "text": "percent.",
+          "start": 52.48,
+          "end": 52.84,
+          "confidence": 0.63
+        }
+      ]
+    },
+    {
+      "start": 53.02,
+      "end": 55.82,
+      "text": " So we were talking before about heap sizes of fun example.",
+      "confidence": 0.8,
+      "words": [
+        {
+          "text": "So",
+          "start": 53.02,
+          "end": 53.46,
+          "confidence": 0.98
+        },
+        {
+          "text": "we",
+          "start": 53.46,
+          "end": 53.76,
+          "confidence": 0.91
+        },
+        {
+          "text": "were",
+          "start": 53.76,
+          "end": 53.92,
+          "confidence": 0.99
+        },
+        {
+          "text": "talking",
+          "start": 53.92,
+          "end": 54.16,
+          "confidence": 1.0
+        },
+        {
+          "text": "before",
+          "start": 54.16,
+          "end": 54.42,
+          "confidence": 0.98
+        },
+        {
+          "text": "about",
+          "start": 54.42,
+          "end": 54.6,
+          "confidence": 0.74
+        },
+        {
+          "text": "heap",
+          "start": 54.6,
+          "end": 54.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "sizes",
+          "start": 54.8,
+          "end": 55.06,
+          "confidence": 0.89
+        },
+        {
+          "text": "of",
+          "start": 55.06,
+          "end": 55.24,
+          "confidence": 0.51
+        },
+        {
+          "text": "fun",
+          "start": 55.24,
+          "end": 55.42,
+          "confidence": 0.32
+        },
+        {
+          "text": "example.",
+          "start": 55.42,
+          "end": 55.82,
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "start": 56.26,
+      "end": 57.92,
+      "text": " We'll see how that comes into play as well.",
+      "confidence": 0.87,
+      "words": [
+        {
+          "text": "We'll",
+          "start": 56.26,
+          "end": 56.44,
+          "confidence": 0.7
+        },
+        {
+          "text": "see",
+          "start": 56.44,
+          "end": 56.58,
+          "confidence": 0.69
+        },
+        {
+          "text": "how",
+          "start": 56.58,
+          "end": 56.7,
+          "confidence": 1.0
+        },
+        {
+          "text": "that",
+          "start": 56.7,
+          "end": 56.82,
+          "confidence": 1.0
+        },
+        {
+          "text": "comes",
+          "start": 56.82,
+          "end": 57.04,
+          "confidence": 0.99
+        },
+        {
+          "text": "into",
+          "start": 57.04,
+          "end": 57.22,
+          "confidence": 0.74
+        },
+        {
+          "text": "play",
+          "start": 57.22,
+          "end": 57.4,
+          "confidence": 0.99
+        },
+        {
+          "text": "as",
+          "start": 57.4,
+          "end": 57.6,
+          "confidence": 0.98
+        },
+        {
+          "text": "well.",
+          "start": 57.6,
+          "end": 57.92,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 58.28,
+      "end": 59.24,
+      "text": " I'm going to scroll down here.",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 58.28,
+          "end": 58.48,
+          "confidence": 0.98
+        },
+        {
+          "text": "going",
+          "start": 58.48,
+          "end": 58.58,
+          "confidence": 0.92
+        },
+        {
+          "text": "to",
+          "start": 58.58,
+          "end": 58.6,
+          "confidence": 1.0
+        },
+        {
+          "text": "scroll",
+          "start": 58.6,
+          "end": 58.84,
+          "confidence": 1.0
+        },
+        {
+          "text": "down",
+          "start": 58.84,
+          "end": 59.06,
+          "confidence": 1.0
+        },
+        {
+          "text": "here.",
+          "start": 59.06,
+          "end": 59.24,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 59.32,
+      "end": 61.26,
+      "text": " By the way, is this font large enough for you to read or share that?",
+      "confidence": 0.84,
+      "words": [
+        {
+          "text": "By",
+          "start": 59.32,
+          "end": 59.44,
+          "confidence": 0.98
+        },
+        {
+          "text": "the",
+          "start": 59.44,
+          "end": 59.52,
+          "confidence": 1.0
+        },
+        {
+          "text": "way,",
+          "start": 59.52,
+          "end": 59.6,
+          "confidence": 1.0
+        },
+        {
+          "text": "is",
+          "start": 59.7,
+          "end": 59.76,
+          "confidence": 0.98
+        },
+        {
+          "text": "this",
+          "start": 59.76,
+          "end": 59.94,
+          "confidence": 0.99
+        },
+        {
+          "text": "font",
+          "start": 59.94,
+          "end": 60.12,
+          "confidence": 0.88
+        },
+        {
+          "text": "large",
+          "start": 60.12,
+          "end": 60.34,
+          "confidence": 0.81
+        },
+        {
+          "text": "enough",
+          "start": 60.34,
+          "end": 60.5,
+          "confidence": 0.96
+        },
+        {
+          "text": "for",
+          "start": 60.5,
+          "end": 60.62,
+          "confidence": 0.98
+        },
+        {
+          "text": "you",
+          "start": 60.62,
+          "end": 60.7,
+          "confidence": 0.99
+        },
+        {
+          "text": "to",
+          "start": 60.7,
+          "end": 60.78,
+          "confidence": 0.93
+        },
+        {
+          "text": "read",
+          "start": 60.78,
+          "end": 60.92,
+          "confidence": 0.91
+        },
+        {
+          "text": "or",
+          "start": 60.92,
+          "end": 61.1,
+          "confidence": 0.71
+        },
+        {
+          "text": "share",
+          "start": 61.1,
+          "end": 61.2,
+          "confidence": 0.75
+        },
+        {
+          "text": "that?",
+          "start": 61.2,
+          "end": 61.26,
+          "confidence": 0.26
+        }
+      ]
+    },
+    {
+      "start": 61.26,
+      "end": 61.61,
+      "text": " Yeah, it's very simple.",
+      "confidence": 0.4,
+      "words": [
+        {
+          "text": "Yeah,",
+          "start": 61.26,
+          "end": 61.52,
+          "confidence": 0.34
+        },
+        {
+          "text": "it's",
+          "start": 61.52,
+          "end": 61.54,
+          "confidence": 0.82
+        },
+        {
+          "text": "very",
+          "start": 61.54,
+          "end": 61.58,
+          "confidence": 0.19
+        },
+        {
+          "text": "simple.",
+          "start": 61.58,
+          "end": 61.61,
+          "confidence": 0.25
+        }
+      ]
+    },
+    {
+      "start": 61.61,
+      "end": 62.24,
+      "text": " Okay.",
+      "confidence": 0.66,
+      "words": [
+        {
+          "text": "Okay.",
+          "start": 61.61,
+          "end": 62.24,
+          "confidence": 0.66
+        }
+      ]
+    },
+    {
+      "start": 63.68,
+      "end": 65.12,
+      "text": " So let me scroll down here a little bit.",
+      "confidence": 0.93,
+      "words": [
+        {
+          "text": "So",
+          "start": 63.68,
+          "end": 63.8,
+          "confidence": 0.58
+        },
+        {
+          "text": "let",
+          "start": 63.8,
+          "end": 63.94,
+          "confidence": 0.97
+        },
+        {
+          "text": "me",
+          "start": 63.94,
+          "end": 64.08,
+          "confidence": 1.0
+        },
+        {
+          "text": "scroll",
+          "start": 64.08,
+          "end": 64.26,
+          "confidence": 1.0
+        },
+        {
+          "text": "down",
+          "start": 64.26,
+          "end": 64.48,
+          "confidence": 0.93
+        },
+        {
+          "text": "here",
+          "start": 64.48,
+          "end": 64.68,
+          "confidence": 0.99
+        },
+        {
+          "text": "a",
+          "start": 64.68,
+          "end": 64.8,
+          "confidence": 0.99
+        },
+        {
+          "text": "little",
+          "start": 64.8,
+          "end": 64.88,
+          "confidence": 0.99
+        },
+        {
+          "text": "bit.",
+          "start": 64.88,
+          "end": 65.12,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 65.38,
+      "end": 67.86,
+      "text": " Our common, or one of our common examples,",
+      "confidence": 0.86,
+      "words": [
+        {
+          "text": "Our",
+          "start": 65.38,
+          "end": 65.8,
+          "confidence": 0.59
+        },
+        {
+          "text": "common,",
+          "start": 65.8,
+          "end": 66.14,
+          "confidence": 0.7
+        },
+        {
+          "text": "or",
+          "start": 66.14,
+          "end": 66.76,
+          "confidence": 0.78
+        },
+        {
+          "text": "one",
+          "start": 66.76,
+          "end": 66.94,
+          "confidence": 0.99
+        },
+        {
+          "text": "of",
+          "start": 66.94,
+          "end": 67.06,
+          "confidence": 0.97
+        },
+        {
+          "text": "our",
+          "start": 67.06,
+          "end": 67.2,
+          "confidence": 1.0
+        },
+        {
+          "text": "common",
+          "start": 67.2,
+          "end": 67.44,
+          "confidence": 1.0
+        },
+        {
+          "text": "examples,",
+          "start": 67.44,
+          "end": 67.86,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 68.4,
+      "end": 69.44,
+      "text": " is cost and duration.",
+      "confidence": 0.81,
+      "words": [
+        {
+          "text": "is",
+          "start": 68.4,
+          "end": 68.62,
+          "confidence": 0.99
+        },
+        {
+          "text": "cost",
+          "start": 68.62,
+          "end": 69.04,
+          "confidence": 0.95
+        },
+        {
+          "text": "and",
+          "start": 69.04,
+          "end": 69.24,
+          "confidence": 0.45
+        },
+        {
+          "text": "duration.",
+          "start": 69.24,
+          "end": 69.44,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 69.68,
+      "end": 73.48,
+      "text": " And that's because for most people in a system under test,",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "And",
+          "start": 69.68,
+          "end": 69.8,
+          "confidence": 0.97
+        },
+        {
+          "text": "that's",
+          "start": 69.8,
+          "end": 70.16,
+          "confidence": 1.0
+        },
+        {
+          "text": "because",
+          "start": 70.16,
+          "end": 70.6,
+          "confidence": 1.0
+        },
+        {
+          "text": "for",
+          "start": 70.6,
+          "end": 71.14,
+          "confidence": 0.73
+        },
+        {
+          "text": "most",
+          "start": 71.14,
+          "end": 71.38,
+          "confidence": 0.99
+        },
+        {
+          "text": "people",
+          "start": 71.38,
+          "end": 71.78,
+          "confidence": 1.0
+        },
+        {
+          "text": "in",
+          "start": 71.78,
+          "end": 72.02,
+          "confidence": 0.96
+        },
+        {
+          "text": "a",
+          "start": 72.02,
+          "end": 72.44,
+          "confidence": 0.98
+        },
+        {
+          "text": "system",
+          "start": 72.44,
+          "end": 73.18,
+          "confidence": 0.93
+        },
+        {
+          "text": "under",
+          "start": 73.18,
+          "end": 73.4,
+          "confidence": 0.55
+        },
+        {
+          "text": "test,",
+          "start": 73.4,
+          "end": 73.48,
+          "confidence": 0.83
+        }
+      ]
+    },
+    {
+      "start": 73.72,
+      "end": 75.54,
+      "text": " they're trying to get their duration as low as possible,",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "they're",
+          "start": 73.72,
+          "end": 74.04,
+          "confidence": 0.99
+        },
+        {
+          "text": "trying",
+          "start": 74.04,
+          "end": 74.26,
+          "confidence": 1.0
+        },
+        {
+          "text": "to",
+          "start": 74.26,
+          "end": 74.66,
+          "confidence": 1.0
+        },
+        {
+          "text": "get",
+          "start": 74.66,
+          "end": 74.84,
+          "confidence": 1.0
+        },
+        {
+          "text": "their",
+          "start": 74.84,
+          "end": 75.0,
+          "confidence": 0.99
+        },
+        {
+          "text": "duration",
+          "start": 75.0,
+          "end": 75.32,
+          "confidence": 1.0
+        },
+        {
+          "text": "as",
+          "start": 75.32,
+          "end": 75.48,
+          "confidence": 0.98
+        },
+        {
+          "text": "low",
+          "start": 75.48,
+          "end": 75.5,
+          "confidence": 0.93
+        },
+        {
+          "text": "as",
+          "start": 75.5,
+          "end": 75.52,
+          "confidence": 1.0
+        },
+        {
+          "text": "possible,",
+          "start": 75.52,
+          "end": 75.54,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 76.06,
+      "end": 77.36,
+      "text": " while keeping their cost as low as possible.",
+      "confidence": 0.93,
+      "words": [
+        {
+          "text": "while",
+          "start": 76.06,
+          "end": 76.26,
+          "confidence": 0.72
+        },
+        {
+          "text": "keeping",
+          "start": 76.26,
+          "end": 76.5,
+          "confidence": 0.99
+        },
+        {
+          "text": "their",
+          "start": 76.5,
+          "end": 76.62,
+          "confidence": 0.95
+        },
+        {
+          "text": "cost",
+          "start": 76.62,
+          "end": 76.84,
+          "confidence": 0.83
+        },
+        {
+          "text": "as",
+          "start": 76.84,
+          "end": 76.98,
+          "confidence": 0.98
+        },
+        {
+          "text": "low",
+          "start": 76.98,
+          "end": 77.08,
+          "confidence": 1.0
+        },
+        {
+          "text": "as",
+          "start": 77.08,
+          "end": 77.12,
+          "confidence": 1.0
+        },
+        {
+          "text": "possible.",
+          "start": 77.12,
+          "end": 77.36,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 77.74,
+      "end": 80.94,
+      "text": " Think of simple, like batch jobs or that post-cribe PG bench",
+      "confidence": 0.67,
+      "words": [
+        {
+          "text": "Think",
+          "start": 77.74,
+          "end": 78.0,
+          "confidence": 0.95
+        },
+        {
+          "text": "of",
+          "start": 78.0,
+          "end": 78.18,
+          "confidence": 1.0
+        },
+        {
+          "text": "simple,",
+          "start": 78.18,
+          "end": 78.48,
+          "confidence": 0.99
+        },
+        {
+          "text": "like",
+          "start": 78.48,
+          "end": 78.7,
+          "confidence": 0.99
+        },
+        {
+          "text": "batch",
+          "start": 78.7,
+          "end": 78.98,
+          "confidence": 0.89
+        },
+        {
+          "text": "jobs",
+          "start": 78.98,
+          "end": 79.36,
+          "confidence": 0.99
+        },
+        {
+          "text": "or",
+          "start": 79.36,
+          "end": 79.54,
+          "confidence": 0.54
+        },
+        {
+          "text": "that",
+          "start": 79.54,
+          "end": 79.68,
+          "confidence": 0.97
+        },
+        {
+          "text": "post-cribe",
+          "start": 79.68,
+          "end": 80.24,
+          "confidence": 0.35
+        },
+        {
+          "text": "PG",
+          "start": 80.24,
+          "end": 80.54,
+          "confidence": 0.86
+        },
+        {
+          "text": "bench",
+          "start": 80.54,
+          "end": 80.94,
+          "confidence": 0.36
+        }
+      ]
+    },
+    {
+      "start": 81.3,
+      "end": 82.48,
+      "text": " in your example that you've already run.",
+      "confidence": 0.95,
+      "words": [
+        {
+          "text": "in",
+          "start": 81.3,
+          "end": 81.5,
+          "confidence": 0.97
+        },
+        {
+          "text": "your",
+          "start": 81.5,
+          "end": 81.62,
+          "confidence": 1.0
+        },
+        {
+          "text": "example",
+          "start": 81.62,
+          "end": 81.96,
+          "confidence": 1.0
+        },
+        {
+          "text": "that",
+          "start": 81.96,
+          "end": 82.12,
+          "confidence": 0.85
+        },
+        {
+          "text": "you've",
+          "start": 82.12,
+          "end": 82.26,
+          "confidence": 0.91
+        },
+        {
+          "text": "already",
+          "start": 82.26,
+          "end": 82.34,
+          "confidence": 1.0
+        },
+        {
+          "text": "run.",
+          "start": 82.34,
+          "end": 82.48,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 82.74,
+      "end": 83.48,
+      "text": " It's the same sort of thing.",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "It's",
+          "start": 82.74,
+          "end": 82.98,
+          "confidence": 0.99
+        },
+        {
+          "text": "the",
+          "start": 82.98,
+          "end": 83.0,
+          "confidence": 0.99
+        },
+        {
+          "text": "same",
+          "start": 83.0,
+          "end": 83.16,
+          "confidence": 1.0
+        },
+        {
+          "text": "sort",
+          "start": 83.16,
+          "end": 83.32,
+          "confidence": 0.97
+        },
+        {
+          "text": "of",
+          "start": 83.32,
+          "end": 83.44,
+          "confidence": 1.0
+        },
+        {
+          "text": "thing.",
+          "start": 83.44,
+          "end": 83.48,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 83.82,
+      "end": 84.66,
+      "text": " How fast can it run?",
+      "confidence": 0.97,
+      "words": [
+        {
+          "text": "How",
+          "start": 83.82,
+          "end": 84.0,
+          "confidence": 0.9
+        },
+        {
+          "text": "fast",
+          "start": 84.0,
+          "end": 84.18,
+          "confidence": 0.99
+        },
+        {
+          "text": "can",
+          "start": 84.18,
+          "end": 84.32,
+          "confidence": 0.98
+        },
+        {
+          "text": "it",
+          "start": 84.32,
+          "end": 84.42,
+          "confidence": 1.0
+        },
+        {
+          "text": "run?",
+          "start": 84.42,
+          "end": 84.66,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 85.7,
+      "end": 87.28,
+      "text": " But we're always looking for here.",
+      "confidence": 0.88,
+      "words": [
+        {
+          "text": "But",
+          "start": 85.7,
+          "end": 86.2,
+          "confidence": 0.6
+        },
+        {
+          "text": "we're",
+          "start": 86.2,
+          "end": 86.5,
+          "confidence": 0.84
+        },
+        {
+          "text": "always",
+          "start": 86.5,
+          "end": 86.72,
+          "confidence": 1.0
+        },
+        {
+          "text": "looking",
+          "start": 86.72,
+          "end": 86.96,
+          "confidence": 1.0
+        },
+        {
+          "text": "for",
+          "start": 86.96,
+          "end": 87.14,
+          "confidence": 0.99
+        },
+        {
+          "text": "here.",
+          "start": 87.14,
+          "end": 87.28,
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "start": 87.28,
+      "end": 90.1,
+      "text": " Our things that maybe can't both go down at the same time.",
+      "confidence": 0.94,
+      "words": [
+        {
+          "text": "Our",
+          "start": 87.28,
+          "end": 87.5,
+          "confidence": 0.61
+        },
+        {
+          "text": "things",
+          "start": 87.5,
+          "end": 87.72,
+          "confidence": 1.0
+        },
+        {
+          "text": "that",
+          "start": 87.72,
+          "end": 87.9,
+          "confidence": 0.99
+        },
+        {
+          "text": "maybe",
+          "start": 87.9,
+          "end": 88.16,
+          "confidence": 0.83
+        },
+        {
+          "text": "can't",
+          "start": 88.16,
+          "end": 88.78,
+          "confidence": 0.98
+        },
+        {
+          "text": "both",
+          "start": 88.78,
+          "end": 89.04,
+          "confidence": 0.98
+        },
+        {
+          "text": "go",
+          "start": 89.04,
+          "end": 89.22,
+          "confidence": 0.99
+        },
+        {
+          "text": "down",
+          "start": 89.22,
+          "end": 89.42,
+          "confidence": 0.99
+        },
+        {
+          "text": "at",
+          "start": 89.42,
+          "end": 89.56,
+          "confidence": 0.99
+        },
+        {
+          "text": "the",
+          "start": 89.56,
+          "end": 89.7,
+          "confidence": 0.99
+        },
+        {
+          "text": "same",
+          "start": 89.7,
+          "end": 89.88,
+          "confidence": 1.0
+        },
+        {
+          "text": "time.",
+          "start": 89.88,
+          "end": 90.1,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 90.34,
+      "end": 91.8,
+      "text": " That's what I'm up by opposing goals.",
+      "confidence": 0.77,
+      "words": [
+        {
+          "text": "That's",
+          "start": 90.34,
+          "end": 90.64,
+          "confidence": 1.0
+        },
+        {
+          "text": "what",
+          "start": 90.64,
+          "end": 90.72,
+          "confidence": 0.41
+        },
+        {
+          "text": "I'm",
+          "start": 90.72,
+          "end": 90.76,
+          "confidence": 0.8
+        },
+        {
+          "text": "up",
+          "start": 90.76,
+          "end": 90.9,
+          "confidence": 0.37
+        },
+        {
+          "text": "by",
+          "start": 90.9,
+          "end": 91.06,
+          "confidence": 0.97
+        },
+        {
+          "text": "opposing",
+          "start": 91.06,
+          "end": 91.42,
+          "confidence": 0.98
+        },
+        {
+          "text": "goals.",
+          "start": 91.42,
+          "end": 91.8,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 92.22,
+      "end": 94.2,
+      "text": " A lot of times, you would imagine,",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "A",
+          "start": 92.22,
+          "end": 92.66,
+          "confidence": 0.99
+        },
+        {
+          "text": "lot",
+          "start": 92.66,
+          "end": 92.84,
+          "confidence": 1.0
+        },
+        {
+          "text": "of",
+          "start": 92.84,
+          "end": 93.02,
+          "confidence": 1.0
+        },
+        {
+          "text": "times,",
+          "start": 93.02,
+          "end": 93.34,
+          "confidence": 1.0
+        },
+        {
+          "text": "you",
+          "start": 93.7,
+          "end": 93.72,
+          "confidence": 0.98
+        },
+        {
+          "text": "would",
+          "start": 93.72,
+          "end": 93.84,
+          "confidence": 0.99
+        },
+        {
+          "text": "imagine,",
+          "start": 93.84,
+          "end": 94.2,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 94.22,
+      "end": 96.33,
+      "text": " and again, this is maybe human bias,",
+      "confidence": 0.94,
+      "words": [
+        {
+          "text": "and",
+          "start": 94.22,
+          "end": 94.38,
+          "confidence": 0.8
+        },
+        {
+          "text": "again,",
+          "start": 94.38,
+          "end": 94.62,
+          "confidence": 0.97
+        },
+        {
+          "text": "this",
+          "start": 94.74,
+          "end": 94.82,
+          "confidence": 0.99
+        },
+        {
+          "text": "is",
+          "start": 94.82,
+          "end": 95.12,
+          "confidence": 0.99
+        },
+        {
+          "text": "maybe",
+          "start": 95.12,
+          "end": 95.3,
+          "confidence": 0.98
+        },
+        {
+          "text": "human",
+          "start": 95.3,
+          "end": 96.0,
+          "confidence": 0.91
+        },
+        {
+          "text": "bias,",
+          "start": 96.0,
+          "end": 96.33,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 96.33,
+      "end": 98.14,
+      "text": " which is what machine learning tries to fight,",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "which",
+          "start": 96.33,
+          "end": 96.64,
+          "confidence": 1.0
+        },
+        {
+          "text": "is",
+          "start": 96.64,
+          "end": 96.82,
+          "confidence": 1.0
+        },
+        {
+          "text": "what",
+          "start": 96.82,
+          "end": 96.98,
+          "confidence": 1.0
+        },
+        {
+          "text": "machine",
+          "start": 96.98,
+          "end": 97.24,
+          "confidence": 0.92
+        },
+        {
+          "text": "learning",
+          "start": 97.24,
+          "end": 97.44,
+          "confidence": 0.97
+        },
+        {
+          "text": "tries",
+          "start": 97.44,
+          "end": 97.72,
+          "confidence": 1.0
+        },
+        {
+          "text": "to",
+          "start": 97.72,
+          "end": 97.98,
+          "confidence": 1.0
+        },
+        {
+          "text": "fight,",
+          "start": 97.98,
+          "end": 98.14,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 98.14,
+      "end": 100.48,
+      "text": " is if we have lower costs,",
+      "confidence": 0.86,
+      "words": [
+        {
+          "text": "is",
+          "start": 98.14,
+          "end": 99.06,
+          "confidence": 0.89
+        },
+        {
+          "text": "if",
+          "start": 99.06,
+          "end": 99.78,
+          "confidence": 0.94
+        },
+        {
+          "text": "we",
+          "start": 99.78,
+          "end": 99.9,
+          "confidence": 1.0
+        },
+        {
+          "text": "have",
+          "start": 99.9,
+          "end": 100.04,
+          "confidence": 1.0
+        },
+        {
+          "text": "lower",
+          "start": 100.04,
+          "end": 100.22,
+          "confidence": 0.93
+        },
+        {
+          "text": "costs,",
+          "start": 100.22,
+          "end": 100.48,
+          "confidence": 0.54
+        }
+      ]
+    },
+    {
+      "start": 101.1,
+      "end": 102.22,
+      "text": " we won't have lower duration.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "we",
+          "start": 101.1,
+          "end": 101.26,
+          "confidence": 0.99
+        },
+        {
+          "text": "won't",
+          "start": 101.26,
+          "end": 101.58,
+          "confidence": 1.0
+        },
+        {
+          "text": "have",
+          "start": 101.58,
+          "end": 101.78,
+          "confidence": 1.0
+        },
+        {
+          "text": "lower",
+          "start": 101.78,
+          "end": 101.96,
+          "confidence": 0.99
+        },
+        {
+          "text": "duration.",
+          "start": 101.96,
+          "end": 102.22,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 102.46,
+      "end": 103.67,
+      "text": " Like there's no way you can have both.",
+      "confidence": 0.93,
+      "words": [
+        {
+          "text": "Like",
+          "start": 102.46,
+          "end": 102.64,
+          "confidence": 0.84
+        },
+        {
+          "text": "there's",
+          "start": 102.64,
+          "end": 102.82,
+          "confidence": 0.79
+        },
+        {
+          "text": "no",
+          "start": 102.82,
+          "end": 102.98,
+          "confidence": 0.99
+        },
+        {
+          "text": "way",
+          "start": 102.98,
+          "end": 103.1,
+          "confidence": 1.0
+        },
+        {
+          "text": "you",
+          "start": 103.1,
+          "end": 103.2,
+          "confidence": 1.0
+        },
+        {
+          "text": "can",
+          "start": 103.2,
+          "end": 103.34,
+          "confidence": 0.99
+        },
+        {
+          "text": "have",
+          "start": 103.34,
+          "end": 103.52,
+          "confidence": 0.99
+        },
+        {
+          "text": "both.",
+          "start": 103.52,
+          "end": 103.67,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 103.67,
+      "end": 106.38,
+      "text": " And so you're kind of, I don't want to say you're making a compromise,",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "And",
+          "start": 103.67,
+          "end": 104.34,
+          "confidence": 0.96
+        },
+        {
+          "text": "so",
+          "start": 104.34,
+          "end": 104.4,
+          "confidence": 0.99
+        },
+        {
+          "text": "you're",
+          "start": 104.4,
+          "end": 104.66,
+          "confidence": 0.93
+        },
+        {
+          "text": "kind",
+          "start": 104.66,
+          "end": 104.7,
+          "confidence": 0.94
+        },
+        {
+          "text": "of,",
+          "start": 104.7,
+          "end": 105.22,
+          "confidence": 1.0
+        },
+        {
+          "text": "I",
+          "start": 105.22,
+          "end": 105.34,
+          "confidence": 0.56
+        },
+        {
+          "text": "don't",
+          "start": 105.34,
+          "end": 105.46,
+          "confidence": 1.0
+        },
+        {
+          "text": "want",
+          "start": 105.46,
+          "end": 105.56,
+          "confidence": 0.88
+        },
+        {
+          "text": "to",
+          "start": 105.56,
+          "end": 105.62,
+          "confidence": 0.91
+        },
+        {
+          "text": "say",
+          "start": 105.62,
+          "end": 105.64,
+          "confidence": 0.97
+        },
+        {
+          "text": "you're",
+          "start": 105.64,
+          "end": 105.7,
+          "confidence": 0.88
+        },
+        {
+          "text": "making",
+          "start": 105.7,
+          "end": 105.88,
+          "confidence": 0.98
+        },
+        {
+          "text": "a",
+          "start": 105.88,
+          "end": 106.14,
+          "confidence": 0.69
+        },
+        {
+          "text": "compromise,",
+          "start": 106.14,
+          "end": 106.38,
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "start": 106.44,
+      "end": 109.0,
+      "text": " but you're finding where that intersection point is.",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "but",
+          "start": 106.44,
+          "end": 106.78,
+          "confidence": 1.0
+        },
+        {
+          "text": "you're",
+          "start": 106.78,
+          "end": 106.9,
+          "confidence": 1.0
+        },
+        {
+          "text": "finding",
+          "start": 106.9,
+          "end": 107.38,
+          "confidence": 1.0
+        },
+        {
+          "text": "where",
+          "start": 107.38,
+          "end": 107.86,
+          "confidence": 0.99
+        },
+        {
+          "text": "that",
+          "start": 107.86,
+          "end": 108.08,
+          "confidence": 0.99
+        },
+        {
+          "text": "intersection",
+          "start": 108.08,
+          "end": 108.54,
+          "confidence": 0.99
+        },
+        {
+          "text": "point",
+          "start": 108.54,
+          "end": 108.8,
+          "confidence": 0.99
+        },
+        {
+          "text": "is.",
+          "start": 108.8,
+          "end": 109.0,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 109.0,
+      "end": 110.06,
+      "text": " And that's what we're doing here.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "And",
+          "start": 109.0,
+          "end": 109.16,
+          "confidence": 0.98
+        },
+        {
+          "text": "that's",
+          "start": 109.16,
+          "end": 109.4,
+          "confidence": 1.0
+        },
+        {
+          "text": "what",
+          "start": 109.4,
+          "end": 109.46,
+          "confidence": 1.0
+        },
+        {
+          "text": "we're",
+          "start": 109.46,
+          "end": 109.56,
+          "confidence": 1.0
+        },
+        {
+          "text": "doing",
+          "start": 109.56,
+          "end": 109.8,
+          "confidence": 1.0
+        },
+        {
+          "text": "here.",
+          "start": 109.8,
+          "end": 110.06,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 110.46,
+      "end": 112.88,
+      "text": " You'll notice obviously this is also set minimize true.",
+      "confidence": 0.83,
+      "words": [
+        {
+          "text": "You'll",
+          "start": 110.46,
+          "end": 110.78,
+          "confidence": 0.99
+        },
+        {
+          "text": "notice",
+          "start": 110.78,
+          "end": 110.94,
+          "confidence": 1.0
+        },
+        {
+          "text": "obviously",
+          "start": 110.94,
+          "end": 111.32,
+          "confidence": 0.55
+        },
+        {
+          "text": "this",
+          "start": 111.32,
+          "end": 111.54,
+          "confidence": 0.63
+        },
+        {
+          "text": "is",
+          "start": 111.54,
+          "end": 111.64,
+          "confidence": 0.96
+        },
+        {
+          "text": "also",
+          "start": 111.64,
+          "end": 111.96,
+          "confidence": 0.99
+        },
+        {
+          "text": "set",
+          "start": 111.96,
+          "end": 112.12,
+          "confidence": 0.96
+        },
+        {
+          "text": "minimize",
+          "start": 112.12,
+          "end": 112.48,
+          "confidence": 0.58
+        },
+        {
+          "text": "true.",
+          "start": 112.48,
+          "end": 112.88,
+          "confidence": 0.89
+        }
+      ]
+    },
+    {
+      "start": 114.48,
+      "end": 116.55,
+      "text": " I think that's the default and optimized profile,",
+      "confidence": 0.87,
+      "words": [
+        {
+          "text": "I",
+          "start": 114.48,
+          "end": 114.62,
+          "confidence": 0.86
+        },
+        {
+          "text": "think",
+          "start": 114.62,
+          "end": 115.02,
+          "confidence": 1.0
+        },
+        {
+          "text": "that's",
+          "start": 115.02,
+          "end": 115.4,
+          "confidence": 0.99
+        },
+        {
+          "text": "the",
+          "start": 115.4,
+          "end": 115.54,
+          "confidence": 0.96
+        },
+        {
+          "text": "default",
+          "start": 115.54,
+          "end": 115.82,
+          "confidence": 1.0
+        },
+        {
+          "text": "and",
+          "start": 115.82,
+          "end": 116.0,
+          "confidence": 0.43
+        },
+        {
+          "text": "optimized",
+          "start": 116.0,
+          "end": 116.28,
+          "confidence": 0.83
+        },
+        {
+          "text": "profile,",
+          "start": 116.28,
+          "end": 116.55,
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "start": 116.55,
+      "end": 119.7,
+      "text": " I remember correctly, but what's important here is it means you can change it.",
+      "confidence": 0.84,
+      "words": [
+        {
+          "text": "I",
+          "start": 116.55,
+          "end": 116.64,
+          "confidence": 0.43
+        },
+        {
+          "text": "remember",
+          "start": 116.64,
+          "end": 116.86,
+          "confidence": 0.98
+        },
+        {
+          "text": "correctly,",
+          "start": 116.86,
+          "end": 117.26,
+          "confidence": 0.99
+        },
+        {
+          "text": "but",
+          "start": 117.84,
+          "end": 117.86,
+          "confidence": 0.61
+        },
+        {
+          "text": "what's",
+          "start": 117.86,
+          "end": 118.18,
+          "confidence": 0.99
+        },
+        {
+          "text": "important",
+          "start": 118.18,
+          "end": 118.4,
+          "confidence": 1.0
+        },
+        {
+          "text": "here",
+          "start": 118.4,
+          "end": 118.66,
+          "confidence": 0.99
+        },
+        {
+          "text": "is",
+          "start": 118.66,
+          "end": 118.84,
+          "confidence": 0.79
+        },
+        {
+          "text": "it",
+          "start": 118.84,
+          "end": 118.9,
+          "confidence": 0.55
+        },
+        {
+          "text": "means",
+          "start": 118.9,
+          "end": 119.02,
+          "confidence": 0.98
+        },
+        {
+          "text": "you",
+          "start": 119.02,
+          "end": 119.12,
+          "confidence": 0.94
+        },
+        {
+          "text": "can",
+          "start": 119.12,
+          "end": 119.3,
+          "confidence": 0.98
+        },
+        {
+          "text": "change",
+          "start": 119.3,
+          "end": 119.52,
+          "confidence": 0.81
+        },
+        {
+          "text": "it.",
+          "start": 119.52,
+          "end": 119.7,
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "start": 119.7,
+      "end": 122.16,
+      "text": " So maybe you have something called throughput that you want to measure.",
+      "confidence": 0.94,
+      "words": [
+        {
+          "text": "So",
+          "start": 119.7,
+          "end": 119.88,
+          "confidence": 0.65
+        },
+        {
+          "text": "maybe",
+          "start": 119.88,
+          "end": 120.0,
+          "confidence": 0.92
+        },
+        {
+          "text": "you",
+          "start": 120.0,
+          "end": 120.16,
+          "confidence": 0.99
+        },
+        {
+          "text": "have",
+          "start": 120.16,
+          "end": 120.26,
+          "confidence": 1.0
+        },
+        {
+          "text": "something",
+          "start": 120.26,
+          "end": 120.56,
+          "confidence": 1.0
+        },
+        {
+          "text": "called",
+          "start": 120.56,
+          "end": 120.8,
+          "confidence": 0.99
+        },
+        {
+          "text": "throughput",
+          "start": 120.8,
+          "end": 121.24,
+          "confidence": 0.99
+        },
+        {
+          "text": "that",
+          "start": 121.24,
+          "end": 121.54,
+          "confidence": 0.85
+        },
+        {
+          "text": "you",
+          "start": 121.54,
+          "end": 121.66,
+          "confidence": 1.0
+        },
+        {
+          "text": "want",
+          "start": 121.66,
+          "end": 121.82,
+          "confidence": 0.94
+        },
+        {
+          "text": "to",
+          "start": 121.82,
+          "end": 121.92,
+          "confidence": 0.98
+        },
+        {
+          "text": "measure.",
+          "start": 121.92,
+          "end": 122.16,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 122.68,
+      "end": 124.12,
+      "text": " You can say minimize false,",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "You",
+          "start": 122.68,
+          "end": 122.84,
+          "confidence": 1.0
+        },
+        {
+          "text": "can",
+          "start": 122.84,
+          "end": 123.02,
+          "confidence": 1.0
+        },
+        {
+          "text": "say",
+          "start": 123.02,
+          "end": 123.18,
+          "confidence": 0.99
+        },
+        {
+          "text": "minimize",
+          "start": 123.18,
+          "end": 123.56,
+          "confidence": 0.95
+        },
+        {
+          "text": "false,",
+          "start": 123.56,
+          "end": 124.12,
+          "confidence": 0.94
+        }
+      ]
+    },
+    {
+      "start": 124.5,
+      "end": 126.8,
+      "text": " and there's you only will know it wants to maximize it instead.",
+      "confidence": 0.77,
+      "words": [
+        {
+          "text": "and",
+          "start": 124.5,
+          "end": 124.54,
+          "confidence": 0.95
+        },
+        {
+          "text": "there's",
+          "start": 124.54,
+          "end": 124.72,
+          "confidence": 0.57
+        },
+        {
+          "text": "you",
+          "start": 124.72,
+          "end": 124.8,
+          "confidence": 0.28
+        },
+        {
+          "text": "only",
+          "start": 124.8,
+          "end": 124.92,
+          "confidence": 0.59
+        },
+        {
+          "text": "will",
+          "start": 124.92,
+          "end": 125.08,
+          "confidence": 0.89
+        },
+        {
+          "text": "know",
+          "start": 125.08,
+          "end": 125.38,
+          "confidence": 0.99
+        },
+        {
+          "text": "it",
+          "start": 125.38,
+          "end": 125.52,
+          "confidence": 0.85
+        },
+        {
+          "text": "wants",
+          "start": 125.52,
+          "end": 125.7,
+          "confidence": 0.98
+        },
+        {
+          "text": "to",
+          "start": 125.7,
+          "end": 125.82,
+          "confidence": 1.0
+        },
+        {
+          "text": "maximize",
+          "start": 125.82,
+          "end": 126.22,
+          "confidence": 0.99
+        },
+        {
+          "text": "it",
+          "start": 126.22,
+          "end": 126.46,
+          "confidence": 0.98
+        },
+        {
+          "text": "instead.",
+          "start": 126.46,
+          "end": 126.8,
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "start": 127.5,
+      "end": 129.18,
+      "text": " So it's one of those kind of counterintuitive settings,",
+      "confidence": 0.91,
+      "words": [
+        {
+          "text": "So",
+          "start": 127.5,
+          "end": 127.58,
+          "confidence": 0.89
+        },
+        {
+          "text": "it's",
+          "start": 127.58,
+          "end": 127.68,
+          "confidence": 0.96
+        },
+        {
+          "text": "one",
+          "start": 127.68,
+          "end": 127.8,
+          "confidence": 1.0
+        },
+        {
+          "text": "of",
+          "start": 127.8,
+          "end": 127.84,
+          "confidence": 1.0
+        },
+        {
+          "text": "those",
+          "start": 127.84,
+          "end": 128.02,
+          "confidence": 1.0
+        },
+        {
+          "text": "kind",
+          "start": 128.02,
+          "end": 128.2,
+          "confidence": 0.87
+        },
+        {
+          "text": "of",
+          "start": 128.2,
+          "end": 128.24,
+          "confidence": 1.0
+        },
+        {
+          "text": "counterintuitive",
+          "start": 128.24,
+          "end": 128.86,
+          "confidence": 0.78
+        },
+        {
+          "text": "settings,",
+          "start": 128.86,
+          "end": 129.18,
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "start": 129.5,
+      "end": 130.18,
+      "text": " or minimize false.",
+      "confidence": 0.7,
+      "words": [
+        {
+          "text": "or",
+          "start": 129.5,
+          "end": 129.52,
+          "confidence": 0.51
+        },
+        {
+          "text": "minimize",
+          "start": 129.52,
+          "end": 129.76,
+          "confidence": 0.7
+        },
+        {
+          "text": "false.",
+          "start": 129.76,
+          "end": 130.18,
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "start": 130.5,
+      "end": 132.94,
+      "text": " You would think we have a maximize true, but that's how it is.",
+      "confidence": 0.87,
+      "words": [
+        {
+          "text": "You",
+          "start": 130.5,
+          "end": 130.52,
+          "confidence": 0.33
+        },
+        {
+          "text": "would",
+          "start": 130.52,
+          "end": 130.56,
+          "confidence": 0.92
+        },
+        {
+          "text": "think",
+          "start": 130.56,
+          "end": 130.6,
+          "confidence": 0.99
+        },
+        {
+          "text": "we",
+          "start": 130.6,
+          "end": 130.68,
+          "confidence": 0.98
+        },
+        {
+          "text": "have",
+          "start": 130.68,
+          "end": 130.8,
+          "confidence": 0.99
+        },
+        {
+          "text": "a",
+          "start": 130.8,
+          "end": 130.9,
+          "confidence": 0.99
+        },
+        {
+          "text": "maximize",
+          "start": 130.9,
+          "end": 131.2,
+          "confidence": 0.77
+        },
+        {
+          "text": "true,",
+          "start": 131.2,
+          "end": 131.54,
+          "confidence": 0.98
+        },
+        {
+          "text": "but",
+          "start": 131.84,
+          "end": 132.06,
+          "confidence": 0.68
+        },
+        {
+          "text": "that's",
+          "start": 132.06,
+          "end": 132.38,
+          "confidence": 0.99
+        },
+        {
+          "text": "how",
+          "start": 132.38,
+          "end": 132.44,
+          "confidence": 0.99
+        },
+        {
+          "text": "it",
+          "start": 132.44,
+          "end": 132.5,
+          "confidence": 1.0
+        },
+        {
+          "text": "is.",
+          "start": 132.5,
+          "end": 132.94,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 133.5,
+      "end": 137.46,
+      "text": " The other thing I'll point out with the metrics is these are,",
+      "confidence": 0.89,
+      "words": [
+        {
+          "text": "The",
+          "start": 133.5,
+          "end": 134.04,
+          "confidence": 0.97
+        },
+        {
+          "text": "other",
+          "start": 134.04,
+          "end": 134.24,
+          "confidence": 1.0
+        },
+        {
+          "text": "thing",
+          "start": 134.24,
+          "end": 134.38,
+          "confidence": 1.0
+        },
+        {
+          "text": "I'll",
+          "start": 134.38,
+          "end": 134.56,
+          "confidence": 0.99
+        },
+        {
+          "text": "point",
+          "start": 134.56,
+          "end": 134.74,
+          "confidence": 1.0
+        },
+        {
+          "text": "out",
+          "start": 134.74,
+          "end": 134.94,
+          "confidence": 1.0
+        },
+        {
+          "text": "with",
+          "start": 134.94,
+          "end": 135.1,
+          "confidence": 0.96
+        },
+        {
+          "text": "the",
+          "start": 135.1,
+          "end": 135.28,
+          "confidence": 0.95
+        },
+        {
+          "text": "metrics",
+          "start": 135.28,
+          "end": 135.7,
+          "confidence": 0.99
+        },
+        {
+          "text": "is",
+          "start": 135.7,
+          "end": 136.54,
+          "confidence": 0.5
+        },
+        {
+          "text": "these",
+          "start": 136.54,
+          "end": 137.16,
+          "confidence": 0.5
+        },
+        {
+          "text": "are,",
+          "start": 137.16,
+          "end": 137.46,
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "start": 137.5,
+      "end": 140.62,
+      "text": " when it says query, this is querying the premier thesis,",
+      "confidence": 0.63,
+      "words": [
+        {
+          "text": "when",
+          "start": 137.5,
+          "end": 137.62,
+          "confidence": 0.88
+        },
+        {
+          "text": "it",
+          "start": 137.62,
+          "end": 137.72,
+          "confidence": 0.98
+        },
+        {
+          "text": "says",
+          "start": 137.72,
+          "end": 138.04,
+          "confidence": 0.97
+        },
+        {
+          "text": "query,",
+          "start": 138.04,
+          "end": 138.5,
+          "confidence": 0.9
+        },
+        {
+          "text": "this",
+          "start": 138.86,
+          "end": 139.08,
+          "confidence": 0.69
+        },
+        {
+          "text": "is",
+          "start": 139.08,
+          "end": 139.34,
+          "confidence": 0.99
+        },
+        {
+          "text": "querying",
+          "start": 139.34,
+          "end": 139.94,
+          "confidence": 0.93
+        },
+        {
+          "text": "the",
+          "start": 139.94,
+          "end": 140.14,
+          "confidence": 0.92
+        },
+        {
+          "text": "premier",
+          "start": 140.14,
+          "end": 140.38,
+          "confidence": 0.13
+        },
+        {
+          "text": "thesis,",
+          "start": 140.38,
+          "end": 140.62,
+          "confidence": 0.12
+        }
+      ]
+    },
+    {
+      "start": 141.0,
+      "end": 142.38,
+      "text": " or when we kind of bring our own.",
+      "confidence": 0.51,
+      "words": [
+        {
+          "text": "or",
+          "start": 141.0,
+          "end": 141.06,
+          "confidence": 0.14
+        },
+        {
+          "text": "when",
+          "start": 141.06,
+          "end": 141.08,
+          "confidence": 0.14
+        },
+        {
+          "text": "we",
+          "start": 141.08,
+          "end": 141.12,
+          "confidence": 0.52
+        },
+        {
+          "text": "kind",
+          "start": 141.12,
+          "end": 141.32,
+          "confidence": 0.54
+        },
+        {
+          "text": "of",
+          "start": 141.32,
+          "end": 141.38,
+          "confidence": 1.0
+        },
+        {
+          "text": "bring",
+          "start": 141.38,
+          "end": 141.54,
+          "confidence": 0.99
+        },
+        {
+          "text": "our",
+          "start": 141.54,
+          "end": 141.76,
+          "confidence": 0.83
+        },
+        {
+          "text": "own.",
+          "start": 141.76,
+          "end": 142.38,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 143.28,
+      "end": 146.26,
+      "text": " Those are for our premier thesis or kind of our system.",
+      "confidence": 0.84,
+      "words": [
+        {
+          "text": "Those",
+          "start": 143.28,
+          "end": 143.54,
+          "confidence": 0.97
+        },
+        {
+          "text": "are",
+          "start": 143.54,
+          "end": 143.92,
+          "confidence": 1.0
+        },
+        {
+          "text": "for",
+          "start": 143.92,
+          "end": 144.38,
+          "confidence": 0.56
+        },
+        {
+          "text": "our",
+          "start": 144.38,
+          "end": 144.6,
+          "confidence": 0.91
+        },
+        {
+          "text": "premier",
+          "start": 144.6,
+          "end": 144.86,
+          "confidence": 0.74
+        },
+        {
+          "text": "thesis",
+          "start": 144.86,
+          "end": 145.16,
+          "confidence": 0.83
+        },
+        {
+          "text": "or",
+          "start": 145.16,
+          "end": 145.48,
+          "confidence": 0.56
+        },
+        {
+          "text": "kind",
+          "start": 145.48,
+          "end": 145.68,
+          "confidence": 0.92
+        },
+        {
+          "text": "of",
+          "start": 145.68,
+          "end": 145.78,
+          "confidence": 1.0
+        },
+        {
+          "text": "our",
+          "start": 145.78,
+          "end": 145.98,
+          "confidence": 0.97
+        },
+        {
+          "text": "system.",
+          "start": 145.98,
+          "end": 146.26,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 148.42,
+      "end": 154.08,
+      "text": " Excuse me, that's, so that's what those are in reference to.",
+      "confidence": 0.85,
+      "words": [
+        {
+          "text": "Excuse",
+          "start": 148.42,
+          "end": 148.6,
+          "confidence": 0.52
+        },
+        {
+          "text": "me,",
+          "start": 148.6,
+          "end": 148.8,
+          "confidence": 1.0
+        },
+        {
+          "text": "that's,",
+          "start": 149.5,
+          "end": 150.58,
+          "confidence": 0.77
+        },
+        {
+          "text": "so",
+          "start": 151.28,
+          "end": 151.8,
+          "confidence": 0.53
+        },
+        {
+          "text": "that's",
+          "start": 151.8,
+          "end": 152.3,
+          "confidence": 0.98
+        },
+        {
+          "text": "what",
+          "start": 152.3,
+          "end": 152.58,
+          "confidence": 0.97
+        },
+        {
+          "text": "those",
+          "start": 152.58,
+          "end": 153.24,
+          "confidence": 0.86
+        },
+        {
+          "text": "are",
+          "start": 153.24,
+          "end": 153.42,
+          "confidence": 0.96
+        },
+        {
+          "text": "in",
+          "start": 153.42,
+          "end": 153.48,
+          "confidence": 0.96
+        },
+        {
+          "text": "reference",
+          "start": 153.48,
+          "end": 153.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "to.",
+          "start": 153.8,
+          "end": 154.08,
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "start": 154.44,
+      "end": 157.48,
+      "text": " We can do premier thesis queries from the premier thesis you provide as well.",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "We",
+          "start": 154.44,
+          "end": 154.68,
+          "confidence": 0.99
+        },
+        {
+          "text": "can",
+          "start": 154.68,
+          "end": 154.96,
+          "confidence": 1.0
+        },
+        {
+          "text": "do",
+          "start": 154.96,
+          "end": 155.24,
+          "confidence": 1.0
+        },
+        {
+          "text": "premier",
+          "start": 155.24,
+          "end": 155.52,
+          "confidence": 0.81
+        },
+        {
+          "text": "thesis",
+          "start": 155.52,
+          "end": 155.74,
+          "confidence": 0.96
+        },
+        {
+          "text": "queries",
+          "start": 155.74,
+          "end": 156.0,
+          "confidence": 1.0
+        },
+        {
+          "text": "from",
+          "start": 156.0,
+          "end": 156.26,
+          "confidence": 0.98
+        },
+        {
+          "text": "the",
+          "start": 156.26,
+          "end": 156.4,
+          "confidence": 0.98
+        },
+        {
+          "text": "premier",
+          "start": 156.4,
+          "end": 156.62,
+          "confidence": 0.98
+        },
+        {
+          "text": "thesis",
+          "start": 156.62,
+          "end": 156.86,
+          "confidence": 0.94
+        },
+        {
+          "text": "you",
+          "start": 156.86,
+          "end": 156.96,
+          "confidence": 0.42
+        },
+        {
+          "text": "provide",
+          "start": 156.96,
+          "end": 157.24,
+          "confidence": 0.99
+        },
+        {
+          "text": "as",
+          "start": 157.24,
+          "end": 157.44,
+          "confidence": 0.85
+        },
+        {
+          "text": "well.",
+          "start": 157.44,
+          "end": 157.48,
+          "confidence": 0.94
+        }
+      ]
+    },
+    {
+      "start": 157.58,
+      "end": 158.5,
+      "text": " That's no problem at all.",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "That's",
+          "start": 157.58,
+          "end": 157.96,
+          "confidence": 0.99
+        },
+        {
+          "text": "no",
+          "start": 157.96,
+          "end": 158.06,
+          "confidence": 0.99
+        },
+        {
+          "text": "problem",
+          "start": 158.06,
+          "end": 158.34,
+          "confidence": 0.99
+        },
+        {
+          "text": "at",
+          "start": 158.34,
+          "end": 158.48,
+          "confidence": 1.0
+        },
+        {
+          "text": "all.",
+          "start": 158.48,
+          "end": 158.5,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 158.66,
+      "end": 159.48,
+      "text": " It's a different syntax.",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "It's",
+          "start": 158.66,
+          "end": 158.9,
+          "confidence": 1.0
+        },
+        {
+          "text": "a",
+          "start": 158.9,
+          "end": 159.02,
+          "confidence": 0.99
+        },
+        {
+          "text": "different",
+          "start": 159.02,
+          "end": 159.22,
+          "confidence": 0.95
+        },
+        {
+          "text": "syntax.",
+          "start": 159.22,
+          "end": 159.48,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 159.66,
+      "end": 161.18,
+      "text": " It's not in this one as an example,",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "It's",
+          "start": 159.66,
+          "end": 159.94,
+          "confidence": 1.0
+        },
+        {
+          "text": "not",
+          "start": 159.94,
+          "end": 160.14,
+          "confidence": 1.0
+        },
+        {
+          "text": "in",
+          "start": 160.14,
+          "end": 160.28,
+          "confidence": 0.97
+        },
+        {
+          "text": "this",
+          "start": 160.28,
+          "end": 160.44,
+          "confidence": 1.0
+        },
+        {
+          "text": "one",
+          "start": 160.44,
+          "end": 160.56,
+          "confidence": 1.0
+        },
+        {
+          "text": "as",
+          "start": 160.56,
+          "end": 160.72,
+          "confidence": 0.92
+        },
+        {
+          "text": "an",
+          "start": 160.72,
+          "end": 160.84,
+          "confidence": 1.0
+        },
+        {
+          "text": "example,",
+          "start": 160.84,
+          "end": 161.18,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 161.3,
+      "end": 163.0,
+      "text": " but why I like this example?",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "but",
+          "start": 161.3,
+          "end": 161.9,
+          "confidence": 0.98
+        },
+        {
+          "text": "why",
+          "start": 161.9,
+          "end": 162.1,
+          "confidence": 0.98
+        },
+        {
+          "text": "I",
+          "start": 162.1,
+          "end": 162.22,
+          "confidence": 0.96
+        },
+        {
+          "text": "like",
+          "start": 162.22,
+          "end": 162.42,
+          "confidence": 0.98
+        },
+        {
+          "text": "this",
+          "start": 162.42,
+          "end": 162.6,
+          "confidence": 1.0
+        },
+        {
+          "text": "example?",
+          "start": 162.6,
+          "end": 163.0,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 163.68,
+      "end": 168.18,
+      "text": " You see the comments on line 38 where we talk about $20 per month per CPU.",
+      "confidence": 0.74,
+      "words": [
+        {
+          "text": "You",
+          "start": 163.68,
+          "end": 163.86,
+          "confidence": 0.98
+        },
+        {
+          "text": "see",
+          "start": 163.86,
+          "end": 164.0,
+          "confidence": 0.99
+        },
+        {
+          "text": "the",
+          "start": 164.0,
+          "end": 164.14,
+          "confidence": 0.95
+        },
+        {
+          "text": "comments",
+          "start": 164.14,
+          "end": 164.38,
+          "confidence": 0.81
+        },
+        {
+          "text": "on",
+          "start": 164.38,
+          "end": 164.56,
+          "confidence": 0.54
+        },
+        {
+          "text": "line",
+          "start": 164.56,
+          "end": 164.66,
+          "confidence": 0.46
+        },
+        {
+          "text": "38",
+          "start": 164.66,
+          "end": 165.06,
+          "confidence": 0.89
+        },
+        {
+          "text": "where",
+          "start": 165.06,
+          "end": 165.28,
+          "confidence": 0.56
+        },
+        {
+          "text": "we",
+          "start": 165.28,
+          "end": 165.46,
+          "confidence": 0.99
+        },
+        {
+          "text": "talk",
+          "start": 165.46,
+          "end": 165.7,
+          "confidence": 0.97
+        },
+        {
+          "text": "about $20",
+          "start": 165.7,
+          "end": 166.76,
+          "confidence": 0.5
+        },
+        {
+          "text": "per",
+          "start": 166.76,
+          "end": 167.28,
+          "confidence": 0.84
+        },
+        {
+          "text": "month",
+          "start": 167.28,
+          "end": 167.56,
+          "confidence": 0.99
+        },
+        {
+          "text": "per",
+          "start": 167.56,
+          "end": 167.82,
+          "confidence": 0.82
+        },
+        {
+          "text": "CPU.",
+          "start": 167.82,
+          "end": 168.18,
+          "confidence": 0.86
+        }
+      ]
+    },
+    {
+      "start": 169.22,
+      "end": 170.74,
+      "text": " That's where this works out.",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "That's",
+          "start": 169.22,
+          "end": 169.66,
+          "confidence": 1.0
+        },
+        {
+          "text": "where",
+          "start": 169.66,
+          "end": 169.88,
+          "confidence": 0.99
+        },
+        {
+          "text": "this",
+          "start": 169.88,
+          "end": 170.16,
+          "confidence": 0.99
+        },
+        {
+          "text": "works",
+          "start": 170.16,
+          "end": 170.44,
+          "confidence": 1.0
+        },
+        {
+          "text": "out.",
+          "start": 170.44,
+          "end": 170.74,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 170.94,
+      "end": 176.2,
+      "text": " So when we do resource request, which is a call at a custom query of sorts,",
+      "confidence": 0.8,
+      "words": [
+        {
+          "text": "So",
+          "start": 170.94,
+          "end": 171.16,
+          "confidence": 0.94
+        },
+        {
+          "text": "when",
+          "start": 171.16,
+          "end": 171.38,
+          "confidence": 0.96
+        },
+        {
+          "text": "we",
+          "start": 171.38,
+          "end": 171.48,
+          "confidence": 1.0
+        },
+        {
+          "text": "do",
+          "start": 171.48,
+          "end": 171.7,
+          "confidence": 1.0
+        },
+        {
+          "text": "resource",
+          "start": 171.7,
+          "end": 172.06,
+          "confidence": 0.93
+        },
+        {
+          "text": "request,",
+          "start": 172.06,
+          "end": 172.6,
+          "confidence": 0.57
+        },
+        {
+          "text": "which",
+          "start": 172.96,
+          "end": 172.98,
+          "confidence": 0.65
+        },
+        {
+          "text": "is",
+          "start": 172.98,
+          "end": 173.4,
+          "confidence": 0.99
+        },
+        {
+          "text": "a",
+          "start": 173.4,
+          "end": 174.38,
+          "confidence": 0.63
+        },
+        {
+          "text": "call",
+          "start": 174.38,
+          "end": 174.54,
+          "confidence": 0.34
+        },
+        {
+          "text": "at",
+          "start": 174.54,
+          "end": 174.78,
+          "confidence": 0.56
+        },
+        {
+          "text": "a",
+          "start": 174.78,
+          "end": 175.14,
+          "confidence": 0.98
+        },
+        {
+          "text": "custom",
+          "start": 175.14,
+          "end": 175.5,
+          "confidence": 0.98
+        },
+        {
+          "text": "query",
+          "start": 175.5,
+          "end": 175.86,
+          "confidence": 0.99
+        },
+        {
+          "text": "of",
+          "start": 175.86,
+          "end": 176.02,
+          "confidence": 0.94
+        },
+        {
+          "text": "sorts,",
+          "start": 176.02,
+          "end": 176.2,
+          "confidence": 0.93
+        }
+      ]
+    },
+    {
+      "start": 176.2,
+      "end": 177.3,
+      "text": " we have a few built-ins.",
+      "confidence": 0.95,
+      "words": [
+        {
+          "text": "we",
+          "start": 176.2,
+          "end": 176.38,
+          "confidence": 0.98
+        },
+        {
+          "text": "have",
+          "start": 176.38,
+          "end": 176.52,
+          "confidence": 1.0
+        },
+        {
+          "text": "a",
+          "start": 176.52,
+          "end": 176.66,
+          "confidence": 1.0
+        },
+        {
+          "text": "few",
+          "start": 176.66,
+          "end": 176.78,
+          "confidence": 1.0
+        },
+        {
+          "text": "built-ins.",
+          "start": 176.78,
+          "end": 177.3,
+          "confidence": 0.89
+        }
+      ]
+    },
+    {
+      "start": 177.66,
+      "end": 180.6,
+      "text": " These are all based on spreek functions if you're familiar with that at all.",
+      "confidence": 0.76,
+      "words": [
+        {
+          "text": "These",
+          "start": 177.66,
+          "end": 177.84,
+          "confidence": 1.0
+        },
+        {
+          "text": "are",
+          "start": 177.84,
+          "end": 178.04,
+          "confidence": 1.0
+        },
+        {
+          "text": "all",
+          "start": 178.04,
+          "end": 178.18,
+          "confidence": 0.99
+        },
+        {
+          "text": "based",
+          "start": 178.18,
+          "end": 178.38,
+          "confidence": 1.0
+        },
+        {
+          "text": "on",
+          "start": 178.38,
+          "end": 178.58,
+          "confidence": 0.99
+        },
+        {
+          "text": "spreek",
+          "start": 178.58,
+          "end": 178.88,
+          "confidence": 0.25
+        },
+        {
+          "text": "functions",
+          "start": 178.88,
+          "end": 179.28,
+          "confidence": 0.98
+        },
+        {
+          "text": "if",
+          "start": 179.28,
+          "end": 179.5,
+          "confidence": 0.4
+        },
+        {
+          "text": "you're",
+          "start": 179.5,
+          "end": 179.68,
+          "confidence": 0.9
+        },
+        {
+          "text": "familiar",
+          "start": 179.68,
+          "end": 179.88,
+          "confidence": 1.0
+        },
+        {
+          "text": "with",
+          "start": 179.88,
+          "end": 180.08,
+          "confidence": 0.99
+        },
+        {
+          "text": "that",
+          "start": 180.08,
+          "end": 180.24,
+          "confidence": 0.97
+        },
+        {
+          "text": "at",
+          "start": 180.24,
+          "end": 180.38,
+          "confidence": 0.65
+        },
+        {
+          "text": "all.",
+          "start": 180.38,
+          "end": 180.6,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 181.94,
+      "end": 185.4,
+      "text": " So basically what this does is it looks at the pods that are spun up.",
+      "confidence": 0.91,
+      "words": [
+        {
+          "text": "So",
+          "start": 181.94,
+          "end": 182.16,
+          "confidence": 0.91
+        },
+        {
+          "text": "basically",
+          "start": 182.16,
+          "end": 182.4,
+          "confidence": 0.74
+        },
+        {
+          "text": "what",
+          "start": 182.4,
+          "end": 182.56,
+          "confidence": 0.95
+        },
+        {
+          "text": "this",
+          "start": 182.56,
+          "end": 182.76,
+          "confidence": 1.0
+        },
+        {
+          "text": "does",
+          "start": 182.76,
+          "end": 182.96,
+          "confidence": 1.0
+        },
+        {
+          "text": "is",
+          "start": 182.96,
+          "end": 183.22,
+          "confidence": 0.93
+        },
+        {
+          "text": "it",
+          "start": 183.22,
+          "end": 183.48,
+          "confidence": 0.8
+        },
+        {
+          "text": "looks",
+          "start": 183.48,
+          "end": 183.76,
+          "confidence": 0.91
+        },
+        {
+          "text": "at",
+          "start": 183.76,
+          "end": 183.92,
+          "confidence": 0.87
+        },
+        {
+          "text": "the",
+          "start": 183.92,
+          "end": 184.16,
+          "confidence": 0.97
+        },
+        {
+          "text": "pods",
+          "start": 184.16,
+          "end": 184.44,
+          "confidence": 0.95
+        },
+        {
+          "text": "that",
+          "start": 184.44,
+          "end": 184.64,
+          "confidence": 0.83
+        },
+        {
+          "text": "are",
+          "start": 184.64,
+          "end": 184.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "spun",
+          "start": 184.9,
+          "end": 185.14,
+          "confidence": 0.94
+        },
+        {
+          "text": "up.",
+          "start": 185.14,
+          "end": 185.4,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 185.42,
+      "end": 187.55,
+      "text": " When we get, we'll get to this later in the, in the Yamal here,",
+      "confidence": 0.79,
+      "words": [
+        {
+          "text": "When",
+          "start": 185.42,
+          "end": 185.56,
+          "confidence": 0.5
+        },
+        {
+          "text": "we",
+          "start": 185.56,
+          "end": 185.7,
+          "confidence": 0.99
+        },
+        {
+          "text": "get,",
+          "start": 185.7,
+          "end": 185.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "we'll",
+          "start": 185.88,
+          "end": 185.98,
+          "confidence": 0.96
+        },
+        {
+          "text": "get",
+          "start": 185.98,
+          "end": 186.08,
+          "confidence": 0.99
+        },
+        {
+          "text": "to",
+          "start": 186.08,
+          "end": 186.2,
+          "confidence": 1.0
+        },
+        {
+          "text": "this",
+          "start": 186.2,
+          "end": 186.38,
+          "confidence": 1.0
+        },
+        {
+          "text": "later",
+          "start": 186.38,
+          "end": 186.6,
+          "confidence": 1.0
+        },
+        {
+          "text": "in",
+          "start": 186.6,
+          "end": 187.06,
+          "confidence": 0.94
+        },
+        {
+          "text": "the,",
+          "start": 187.06,
+          "end": 187.16,
+          "confidence": 0.98
+        },
+        {
+          "text": "in",
+          "start": 187.18,
+          "end": 187.2,
+          "confidence": 0.91
+        },
+        {
+          "text": "the",
+          "start": 187.2,
+          "end": 187.22,
+          "confidence": 0.99
+        },
+        {
+          "text": "Yamal",
+          "start": 187.22,
+          "end": 187.48,
+          "confidence": 0.28
+        },
+        {
+          "text": "here,",
+          "start": 187.48,
+          "end": 187.55,
+          "confidence": 0.8
+        }
+      ]
+    },
+    {
+      "start": 187.55,
+      "end": 192.44,
+      "text": " but we look at the pods that are spun up how long they ran for the duration of the test.",
+      "confidence": 0.93,
+      "words": [
+        {
+          "text": "but",
+          "start": 187.55,
+          "end": 188.22,
+          "confidence": 0.98
+        },
+        {
+          "text": "we",
+          "start": 188.22,
+          "end": 188.38,
+          "confidence": 0.98
+        },
+        {
+          "text": "look",
+          "start": 188.38,
+          "end": 188.54,
+          "confidence": 0.99
+        },
+        {
+          "text": "at",
+          "start": 188.54,
+          "end": 188.66,
+          "confidence": 1.0
+        },
+        {
+          "text": "the",
+          "start": 188.66,
+          "end": 188.74,
+          "confidence": 1.0
+        },
+        {
+          "text": "pods",
+          "start": 188.74,
+          "end": 188.88,
+          "confidence": 0.98
+        },
+        {
+          "text": "that",
+          "start": 188.88,
+          "end": 188.98,
+          "confidence": 1.0
+        },
+        {
+          "text": "are",
+          "start": 188.98,
+          "end": 189.24,
+          "confidence": 1.0
+        },
+        {
+          "text": "spun",
+          "start": 189.24,
+          "end": 189.32,
+          "confidence": 1.0
+        },
+        {
+          "text": "up",
+          "start": 189.32,
+          "end": 189.58,
+          "confidence": 1.0
+        },
+        {
+          "text": "how",
+          "start": 189.58,
+          "end": 189.76,
+          "confidence": 0.5
+        },
+        {
+          "text": "long",
+          "start": 189.76,
+          "end": 189.96,
+          "confidence": 1.0
+        },
+        {
+          "text": "they",
+          "start": 189.96,
+          "end": 190.14,
+          "confidence": 0.99
+        },
+        {
+          "text": "ran",
+          "start": 190.14,
+          "end": 190.58,
+          "confidence": 0.97
+        },
+        {
+          "text": "for",
+          "start": 190.58,
+          "end": 191.26,
+          "confidence": 0.66
+        },
+        {
+          "text": "the",
+          "start": 191.26,
+          "end": 191.48,
+          "confidence": 0.87
+        },
+        {
+          "text": "duration",
+          "start": 191.48,
+          "end": 191.76,
+          "confidence": 0.93
+        },
+        {
+          "text": "of",
+          "start": 191.76,
+          "end": 191.92,
+          "confidence": 0.98
+        },
+        {
+          "text": "the",
+          "start": 191.92,
+          "end": 192.1,
+          "confidence": 0.98
+        },
+        {
+          "text": "test.",
+          "start": 192.1,
+          "end": 192.44,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 193.0,
+      "end": 199.92,
+      "text": " And then multiply that CPU, utiles or CPU resource usage by .022,",
+      "confidence": 0.66,
+      "words": [
+        {
+          "text": "And",
+          "start": 193.0,
+          "end": 193.14,
+          "confidence": 0.52
+        },
+        {
+          "text": "then",
+          "start": 193.14,
+          "end": 193.4,
+          "confidence": 0.99
+        },
+        {
+          "text": "multiply",
+          "start": 193.4,
+          "end": 193.88,
+          "confidence": 0.97
+        },
+        {
+          "text": "that",
+          "start": 193.88,
+          "end": 194.3,
+          "confidence": 0.98
+        },
+        {
+          "text": "CPU,",
+          "start": 194.3,
+          "end": 194.96,
+          "confidence": 0.83
+        },
+        {
+          "text": "utiles",
+          "start": 195.12,
+          "end": 195.74,
+          "confidence": 0.23
+        },
+        {
+          "text": "or",
+          "start": 195.74,
+          "end": 196.02,
+          "confidence": 0.38
+        },
+        {
+          "text": "CPU",
+          "start": 196.02,
+          "end": 196.46,
+          "confidence": 0.93
+        },
+        {
+          "text": "resource",
+          "start": 196.46,
+          "end": 197.34,
+          "confidence": 0.91
+        },
+        {
+          "text": "usage",
+          "start": 197.34,
+          "end": 197.74,
+          "confidence": 1.0
+        },
+        {
+          "text": "by .022,",
+          "start": 197.74,
+          "end": 199.92,
+          "confidence": 0.71
+        }
+      ]
+    },
+    {
+      "start": 200.42,
+      "end": 203.6,
+      "text": " which works out to $22 per month per CPU in this example.",
+      "confidence": 0.95,
+      "words": [
+        {
+          "text": "which",
+          "start": 200.42,
+          "end": 200.86,
+          "confidence": 0.99
+        },
+        {
+          "text": "works",
+          "start": 200.86,
+          "end": 201.14,
+          "confidence": 0.99
+        },
+        {
+          "text": "out",
+          "start": 201.14,
+          "end": 201.32,
+          "confidence": 1.0
+        },
+        {
+          "text": "to $22",
+          "start": 201.32,
+          "end": 201.9,
+          "confidence": 0.86
+        },
+        {
+          "text": "per",
+          "start": 201.9,
+          "end": 202.2,
+          "confidence": 0.99
+        },
+        {
+          "text": "month",
+          "start": 202.2,
+          "end": 202.36,
+          "confidence": 1.0
+        },
+        {
+          "text": "per",
+          "start": 202.36,
+          "end": 202.62,
+          "confidence": 0.97
+        },
+        {
+          "text": "CPU",
+          "start": 202.62,
+          "end": 202.9,
+          "confidence": 0.99
+        },
+        {
+          "text": "in",
+          "start": 202.9,
+          "end": 203.08,
+          "confidence": 0.81
+        },
+        {
+          "text": "this",
+          "start": 203.08,
+          "end": 203.24,
+          "confidence": 0.99
+        },
+        {
+          "text": "example.",
+          "start": 203.24,
+          "end": 203.6,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 203.6,
+      "end": 205.66,
+      "text": " You can set these to whatever you like.",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "You",
+          "start": 203.6,
+          "end": 204.18,
+          "confidence": 0.91
+        },
+        {
+          "text": "can",
+          "start": 204.18,
+          "end": 204.44,
+          "confidence": 1.0
+        },
+        {
+          "text": "set",
+          "start": 204.44,
+          "end": 204.66,
+          "confidence": 1.0
+        },
+        {
+          "text": "these",
+          "start": 204.66,
+          "end": 204.86,
+          "confidence": 0.96
+        },
+        {
+          "text": "to",
+          "start": 204.86,
+          "end": 204.96,
+          "confidence": 0.99
+        },
+        {
+          "text": "whatever",
+          "start": 204.96,
+          "end": 205.14,
+          "confidence": 0.99
+        },
+        {
+          "text": "you",
+          "start": 205.14,
+          "end": 205.34,
+          "confidence": 1.0
+        },
+        {
+          "text": "like.",
+          "start": 205.34,
+          "end": 205.66,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 205.98,
+      "end": 209.58,
+      "text": " I tend to not change the values unless someone says,",
+      "confidence": 0.99,
+      "words": [
+        {
+          "text": "I",
+          "start": 205.98,
+          "end": 206.36,
+          "confidence": 0.99
+        },
+        {
+          "text": "tend",
+          "start": 206.36,
+          "end": 206.62,
+          "confidence": 1.0
+        },
+        {
+          "text": "to",
+          "start": 206.62,
+          "end": 206.9,
+          "confidence": 1.0
+        },
+        {
+          "text": "not",
+          "start": 206.9,
+          "end": 207.18,
+          "confidence": 1.0
+        },
+        {
+          "text": "change",
+          "start": 207.18,
+          "end": 207.86,
+          "confidence": 1.0
+        },
+        {
+          "text": "the",
+          "start": 207.86,
+          "end": 208.04,
+          "confidence": 1.0
+        },
+        {
+          "text": "values",
+          "start": 208.04,
+          "end": 208.44,
+          "confidence": 1.0
+        },
+        {
+          "text": "unless",
+          "start": 208.44,
+          "end": 208.88,
+          "confidence": 0.95
+        },
+        {
+          "text": "someone",
+          "start": 208.88,
+          "end": 209.22,
+          "confidence": 0.99
+        },
+        {
+          "text": "says,",
+          "start": 209.22,
+          "end": 209.58,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 209.76,
+      "end": 210.7,
+      "text": " I need precision.",
+      "confidence": 1.0,
+      "words": [
+        {
+          "text": "I",
+          "start": 209.76,
+          "end": 210.02,
+          "confidence": 0.99
+        },
+        {
+          "text": "need",
+          "start": 210.02,
+          "end": 210.22,
+          "confidence": 1.0
+        },
+        {
+          "text": "precision.",
+          "start": 210.22,
+          "end": 210.7,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 211.34,
+      "end": 213.67,
+      "text": " If they say, I need to know exactly what it will cost in my environment,",
+      "confidence": 0.87,
+      "words": [
+        {
+          "text": "If",
+          "start": 211.34,
+          "end": 211.78,
+          "confidence": 0.99
+        },
+        {
+          "text": "they",
+          "start": 211.78,
+          "end": 211.92,
+          "confidence": 0.99
+        },
+        {
+          "text": "say,",
+          "start": 211.92,
+          "end": 212.04,
+          "confidence": 0.88
+        },
+        {
+          "text": "I",
+          "start": 212.14,
+          "end": 212.16,
+          "confidence": 0.86
+        },
+        {
+          "text": "need",
+          "start": 212.16,
+          "end": 212.34,
+          "confidence": 1.0
+        },
+        {
+          "text": "to",
+          "start": 212.34,
+          "end": 212.42,
+          "confidence": 1.0
+        },
+        {
+          "text": "know",
+          "start": 212.42,
+          "end": 212.5,
+          "confidence": 1.0
+        },
+        {
+          "text": "exactly",
+          "start": 212.5,
+          "end": 212.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "what",
+          "start": 212.8,
+          "end": 212.94,
+          "confidence": 0.95
+        },
+        {
+          "text": "it",
+          "start": 212.94,
+          "end": 213.02,
+          "confidence": 0.7
+        },
+        {
+          "text": "will",
+          "start": 213.02,
+          "end": 213.1,
+          "confidence": 0.56
+        },
+        {
+          "text": "cost",
+          "start": 213.1,
+          "end": 213.22,
+          "confidence": 0.96
+        },
+        {
+          "text": "in",
+          "start": 213.22,
+          "end": 213.32,
+          "confidence": 0.47
+        },
+        {
+          "text": "my",
+          "start": 213.32,
+          "end": 213.42,
+          "confidence": 0.99
+        },
+        {
+          "text": "environment,",
+          "start": 213.42,
+          "end": 213.67,
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "start": 213.67,
+      "end": 216.18,
+      "text": " then I'll come back to them and say, okay, what are your costs?",
+      "confidence": 0.93,
+      "words": [
+        {
+          "text": "then",
+          "start": 213.67,
+          "end": 213.92,
+          "confidence": 0.92
+        },
+        {
+          "text": "I'll",
+          "start": 213.92,
+          "end": 214.08,
+          "confidence": 0.99
+        },
+        {
+          "text": "come",
+          "start": 214.08,
+          "end": 214.2,
+          "confidence": 0.99
+        },
+        {
+          "text": "back",
+          "start": 214.2,
+          "end": 214.38,
+          "confidence": 1.0
+        },
+        {
+          "text": "to",
+          "start": 214.38,
+          "end": 214.48,
+          "confidence": 0.97
+        },
+        {
+          "text": "them",
+          "start": 214.48,
+          "end": 214.56,
+          "confidence": 0.99
+        },
+        {
+          "text": "and",
+          "start": 214.56,
+          "end": 214.72,
+          "confidence": 0.97
+        },
+        {
+          "text": "say,",
+          "start": 214.72,
+          "end": 214.74,
+          "confidence": 0.99
+        },
+        {
+          "text": "okay,",
+          "start": 214.88,
+          "end": 215.06,
+          "confidence": 0.48
+        },
+        {
+          "text": "what",
+          "start": 215.42,
+          "end": 215.54,
+          "confidence": 0.9
+        },
+        {
+          "text": "are",
+          "start": 215.54,
+          "end": 215.66,
+          "confidence": 0.99
+        },
+        {
+          "text": "your",
+          "start": 215.66,
+          "end": 215.82,
+          "confidence": 0.99
+        },
+        {
+          "text": "costs?",
+          "start": 215.82,
+          "end": 216.18,
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "start": 216.48,
+      "end": 217.78,
+      "text": " Let's do the math and we'll do it.",
+      "confidence": 0.97,
+      "words": [
+        {
+          "text": "Let's",
+          "start": 216.48,
+          "end": 216.76,
+          "confidence": 1.0
+        },
+        {
+          "text": "do",
+          "start": 216.76,
+          "end": 216.86,
+          "confidence": 1.0
+        },
+        {
+          "text": "the",
+          "start": 216.86,
+          "end": 216.96,
+          "confidence": 0.98
+        },
+        {
+          "text": "math",
+          "start": 216.96,
+          "end": 217.16,
+          "confidence": 0.99
+        },
+        {
+          "text": "and",
+          "start": 217.16,
+          "end": 217.28,
+          "confidence": 0.77
+        },
+        {
+          "text": "we'll",
+          "start": 217.28,
+          "end": 217.38,
+          "confidence": 0.99
+        },
+        {
+          "text": "do",
+          "start": 217.38,
+          "end": 217.52,
+          "confidence": 1.0
+        },
+        {
+          "text": "it.",
+          "start": 217.52,
+          "end": 217.78,
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "start": 217.84,
+      "end": 221.22,
+      "text": " The reason why I don't bother is because it's always relative to itself.",
+      "confidence": 0.98,
+      "words": [
+        {
+          "text": "The",
+          "start": 217.84,
+          "end": 217.98,
+          "confidence": 0.95
+        },
+        {
+          "text": "reason",
+          "start": 217.98,
+          "end": 218.22,
+          "confidence": 1.0
+        },
+        {
+          "text": "why",
+          "start": 218.22,
+          "end": 218.36,
+          "confidence": 1.0
+        },
+        {
+          "text": "I",
+          "start": 218.36,
+          "end": 218.44,
+          "confidence": 0.99
+        },
+        {
+          "text": "don't",
+          "start": 218.44,
+          "end": 218.6,
+          "confidence": 1.0
+        },
+        {
+          "text": "bother",
+          "start": 218.6,
+          "end": 218.9,
+          "confidence": 0.99
+        },
+        {
+          "text": "is",
+          "start": 218.9,
+          "end": 219.34,
+          "confidence": 0.93
+        },
+        {
+          "text": "because",
+          "start": 219.34,
+          "end": 219.78,
+          "confidence": 0.99
+        },
+        {
+          "text": "it's",
+          "start": 219.78,
+          "end": 220.12,
+          "confidence": 0.97
+        },
+        {
+          "text": "always",
+          "start": 220.12,
+          "end": 220.4,
+          "confidence": 1.0
+        },
+        {
+          "text": "relative",
+          "start": 220.4,
+          "end": 220.76,
+          "confidence": 0.99
+        },
+        {
+          "text": "to",
+          "start": 220.76,
+          "end": 220.92,
+          "confidence": 1.0
+        },
+        {
+          "text": "itself.",
+          "start": 220.92,
+          "end": 221.22,
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "start": 221.54,
+      "end": 224.48,
+      "text": " So surely if it said this was $5 and another one was $7,000,",
+      "confidence": 0.72,
+      "words": [
+        {
+          "text": "So",
+          "start": 221.54,
+          "end": 221.72,
+          "confidence": 0.97
+        },
+        {
+          "text": "surely",
+          "start": 221.72,
+          "end": 222.02,
+          "confidence": 0.82
+        },
+        {
+          "text": "if",
+          "start": 222.02,
+          "end": 222.2,
+          "confidence": 0.51
+        },
+        {
+          "text": "it",
+          "start": 222.2,
+          "end": 222.4,
+          "confidence": 0.99
+        },
+        {
+          "text": "said",
+          "start": 222.4,
+          "end": 222.54,
+          "confidence": 0.69
+        },
+        {
+          "text": "this",
+          "start": 222.54,
+          "end": 222.7,
+          "confidence": 0.87
+        },
+        {
+          "text": "was $5",
+          "start": 222.7,
+          "end": 223.22,
+          "confidence": 0.88
+        },
+        {
+          "text": "and",
+          "start": 223.22,
+          "end": 223.86,
+          "confidence": 0.56
+        },
+        {
+          "text": "another",
+          "start": 223.86,
+          "end": 224.12,
+          "confidence": 0.83
+        },
+        {
+          "text": "one",
+          "start": 224.12,
+          "end": 224.26,
+          "confidence": 0.82
+        },
+        {
+          "text": "was $7,000,",
+          "start": 224.26,
+          "end": 224.48,
+          "confidence": 0.57
+        }
+      ]
+    },
+    {
+      "start": 224.58,
+      "end": 253.98,
+      "text": " $7,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $",
+      "confidence": 0.87,
+      "words": [
+        {
+          "text": "$7,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $1,000, $",
+          "start": 224.58,
+          "end": 253.98,
+          "confidence": 0.87
+        }
+      ]
+    },
+    {
+      "start": 254.0,
+      "end": 283.98,
+      "text": " $1, $1,000, $1,000, $1,000, $1,000, $1, $1,000, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $",
+      "confidence": 0.9,
+      "words": [
+        {
+          "text": "$1, $1,000, $1,000, $1,000, $1,000, $1, $1,000, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $1, $",
+          "start": 254.0,
+          "end": 283.98,
+          "confidence": 0.9
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
